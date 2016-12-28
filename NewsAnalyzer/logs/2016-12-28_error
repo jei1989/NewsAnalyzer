@@ -1,0 +1,1112 @@
+[2016-12-28 03:05:05] java.lang.StringIndexOutOfBoundsException: String index out of range: -3
+[2016-12-28 03:07:15] java.lang.StringIndexOutOfBoundsException: String index out of range: -3
+[2016-12-28 03:07:49] java.lang.StringIndexOutOfBoundsException: String index out of range: -3
+[2016-12-28 03:12:58] java.lang.StringIndexOutOfBoundsException: String index out of range: -3
+[2016-12-28 03:13:43] java.lang.StringIndexOutOfBoundsException: String index out of range: -3
+[2016-12-28 03:13:58] java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+[2016-12-28 03:14:22] java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+[2016-12-28 03:15:16] java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+[2016-12-28 03:16:19] java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+[2016-12-28 03:17:07] java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+[2016-12-28 03:19:21] java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+[2016-12-28 03:19:55] java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+[2016-12-28 03:20:17] java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+[2016-12-28 17:45:54] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:54] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:54] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:54] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:55] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:55] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:55] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:55] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:55] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:55] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:55] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:55] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:55] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:55] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:55] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:55] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:55] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:56] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:56] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:56] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:56] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:56] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:56] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:56] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:56] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:56] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:56] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:56] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:56] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:56] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:56] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:57] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:57] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:57] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:57] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:57] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:57] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:57] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:58] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:58] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:58] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:58] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:58] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:58] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:58] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:58] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:58] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:58] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:58] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:58] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:58] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:58] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:45:59] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 6
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:00] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:01] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:01] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:01] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:01] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:01] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:01] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:01] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:01] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:01] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:01] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:01] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:02] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:02] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:02] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:02] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:02] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:02] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:02] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:02] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:02] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:02] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:02] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:02] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:03] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:03] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:03] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:03] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:03] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:03] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:03] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:03] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:03] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:03] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:46:04] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:39] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:39] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:39] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:40] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:41] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:41] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:41] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:41] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:41] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:41] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:41] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:41] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:41] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:41] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:41] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:41] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:41] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:42] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:42] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:42] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:42] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:42] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:42] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:42] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:43] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:44] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:44] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:44] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:44] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:44] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:44] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:44] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:44] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 17:54:44] java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:28] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:28] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:28] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:28] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:28] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:28] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:28] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:28] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:28] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:29] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:29] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:29] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:29] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:29] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:29] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:29] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:29] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:29] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:29] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:29] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:29] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:29] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:30] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:30] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:30] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:30] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:30] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:30] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:30] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:30] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:30] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:31] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:31] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:31] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:31] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:31] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:31] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:31] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:31] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:32] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:33] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:33] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:33] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:33] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:33] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:33] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:33] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:33] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:33] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:33] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:33] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:33] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 18:02:33] searchTreeNode :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:06] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:07] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:08] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:09] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:10] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:11] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
+[2016-12-28 22:59:12] detailDataParser :: java.lang.NullPointerException
