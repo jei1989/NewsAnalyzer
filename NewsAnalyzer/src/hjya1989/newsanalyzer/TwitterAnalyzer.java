@@ -96,6 +96,7 @@ public class TwitterAnalyzer implements Runnable{
 					twitterDateCheck(file);
 				}
 				
+				this.newsAnaMain.setExpandTreeNode();
 			}
 			
 		}catch(Exception ex)
@@ -238,33 +239,35 @@ public class TwitterAnalyzer implements Runnable{
 		//6 - content : if you want to only content, you have to use seprator " : " [1]
 			if( spliteStr.length > 6 ){
 				
-				System.out.println("");
-				System.out.println("===================================================================");
-				System.out.println("===================================================================");
+				//System.out.println("");
+				//System.out.println("===================================================================");
+				//System.out.println("===================================================================");
 				
 				DefaultMutableTreeNode node = searchTreeNode(spliteStr[6]);
 				
-				System.out.println("===================================================================");
-				System.out.println("===================================================================");
-				System.out.println("");
+				//System.out.println("===================================================================");
+				//System.out.println("===================================================================");
+				//System.out.println("");
 				
 				if( node == null ){
 				
-					this.newsAnaMain.newsAnaWindow.grandTreeNode = this.newsAnaMain.addTreeGrand( spliteStr[2] );
-					this.newsAnaMain.newsAnaWindow.motherTreeNode = this.newsAnaMain.addTreeMother((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.grandTreeNode,  spliteStr[3]);
-					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[1]);
-					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[4]);
-					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[5]);
-					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[6]);
+					this.newsAnaMain.newsAnaWindow.grandTreeNode = this.newsAnaMain.addTreeGrand( spliteStr[2], newsAnaMain.newsAnaWindow.treeModel, newsAnaMain.newsAnaWindow.tree );
+					this.newsAnaMain.newsAnaWindow.motherTreeNode = this.newsAnaMain.addTreeMother((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.grandTreeNode,  spliteStr[3], newsAnaMain.newsAnaWindow.treeModel, newsAnaMain.newsAnaWindow.tree );
+					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[1], newsAnaMain.newsAnaWindow.treeModel, newsAnaMain.newsAnaWindow.tree );
+					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[4], newsAnaMain.newsAnaWindow.treeModel, newsAnaMain.newsAnaWindow.tree );
+					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[5], newsAnaMain.newsAnaWindow.treeModel, newsAnaMain.newsAnaWindow.tree );
+					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[6], newsAnaMain.newsAnaWindow.treeModel, newsAnaMain.newsAnaWindow.tree );
 				
 				}else if( node != null ){
 					this.newsAnaMain.newsAnaWindow.grandTreeNode = (DefaultMutableTreeNode)node.getParent().getParent();
-					this.newsAnaMain.newsAnaWindow.motherTreeNode = this.newsAnaMain.addTreeMother((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.grandTreeNode,  spliteStr[3]);
-					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[1]);
-					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[4]);
-					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[5]);
-					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[6]);
+					this.newsAnaMain.newsAnaWindow.motherTreeNode = this.newsAnaMain.addTreeMother((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.grandTreeNode,  spliteStr[3], newsAnaMain.newsAnaWindow.treeModel, newsAnaMain.newsAnaWindow.tree );
+					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[1], newsAnaMain.newsAnaWindow.treeModel, newsAnaMain.newsAnaWindow.tree );
+					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[4], newsAnaMain.newsAnaWindow.treeModel, newsAnaMain.newsAnaWindow.tree );
+					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[5], newsAnaMain.newsAnaWindow.treeModel, newsAnaMain.newsAnaWindow.tree );
+					this.newsAnaMain.addTreeChild((DefaultMutableTreeNode)this.newsAnaMain.newsAnaWindow.motherTreeNode,  spliteStr[6], newsAnaMain.newsAnaWindow.treeModel, newsAnaMain.newsAnaWindow.tree );
 				}
+				
+				
 			}//if( spliteStr.length > 6 ){
 
 		} catch (Exception ex) {

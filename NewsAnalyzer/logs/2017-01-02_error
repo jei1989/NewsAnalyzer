@@ -1,0 +1,55 @@
+[2017-01-02 00:02:43] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-02_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-02 00:02:44] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-02_1 (지정된 파일을 찾을 수 없습니다)
+[2017-01-02 00:02:44] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-02_2 (지정된 파일을 찾을 수 없습니다)
+[2017-01-02 01:18:57] init :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result (액세스가 거부되었습니다)
+[2017-01-02 01:21:05] init :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result (액세스가 거부되었습니다)
+[2017-01-02 01:21:36] init :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result (액세스가 거부되었습니다)
+[2017-01-02 01:22:02] init :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result (액세스가 거부되었습니다)
+[2017-01-02 01:22:58] init :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result (액세스가 거부되었습니다)
+[2017-01-02 01:23:33] init :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result (액세스가 거부되었습니다)
+[2017-01-02 01:24:15] init :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result (액세스가 거부되었습니다)
+[2017-01-02 01:24:55] init :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result (액세스가 거부되었습니다)
+[2017-01-02 02:51:21]  detailParser :: java.lang.ArrayIndexOutOfBoundsException: 5
+[2017-01-02 03:59:08] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 04:01:06] rssTree MouseClicked :: java.lang.IllegalArgumentException: Index 3 is out of the specified range
+[2017-01-02 04:01:09] rssTree MouseClicked :: java.lang.IllegalArgumentException: Index 3 is out of the specified range
+[2017-01-02 04:01:09] rssTree MouseClicked :: java.lang.IllegalArgumentException: Index 3 is out of the specified range
+[2017-01-02 04:02:16] rssTree MouseClicked :: java.lang.IllegalArgumentException: Index 2 is out of the specified range
+[2017-01-02 04:02:18] rssTree MouseClicked :: java.lang.IllegalArgumentException: Index 2 is out of the specified range
+[2017-01-02 04:02:19] rssTree MouseClicked :: java.lang.IllegalArgumentException: Index 3 is out of the specified range
+[2017-01-02 04:02:20] rssTree MouseClicked :: java.lang.IllegalArgumentException: Index 3 is out of the specified range
+[2017-01-02 04:02:21] rssTree MouseClicked :: java.lang.IllegalArgumentException: Index 3 is out of the specified range
+[2017-01-02 04:02:22] rssTree MouseClicked :: java.lang.IllegalArgumentException: Index 3 is out of the specified range
+[2017-01-02 04:04:44] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 04:13:47] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 04:15:26] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 04:19:01] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 10:23:35] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 16:05:34] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 16:05:38] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 16:05:40] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 17:58:15] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 17:59:19] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 3 >= 3
+[2017-01-02 17:59:36] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 17:59:38] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 18:00:41] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 18:02:54] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 18:09:08] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 18:10:57] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 18:11:42] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 22:25:33] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 62 >= 48
+[2017-01-02 22:29:12] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-02 23:17:02] readFeed = java.text.ParseException: Unparseable date: "2017-01-02T17:54:47+09:00"
+[2017-01-02 23:17:05] readFeed = java.text.ParseException: Unparseable date: "2017-01-02T17:54:47+09:00"
+[2017-01-02 23:30:38] readFeed = java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-02 23:31:39] readFeed = java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-02 23:33:56] readFeed = java.text.ParseException: Unparseable date: "2017-01-02T17:54:47+09:00"
+[2017-01-02 23:38:20] readFeed = java.text.ParseException: Unparseable date: "2017-01-02T17:54:47+09:00"
+[2017-01-02 23:46:20] readFeed = java.lang.IllegalArgumentException
+[2017-01-02 23:49:12] readFeed = java.text.ParseException: Unparseable date: "2017-01-02T17:54:47+09:00"
+[2017-01-02 23:49:15] readFeed = java.text.ParseException: Unparseable date: "2017-01-02T17:54:47+09:00"
+[2017-01-02 23:54:33] readFeed = java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-02 23:56:02] readFeed = java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-02 23:56:05] readFeed = java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-02 23:56:22] readFeed = java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-02 23:58:07] readFeed = java.text.ParseException: Unparseable date: "2017-01-02T17:54:47+09:00"

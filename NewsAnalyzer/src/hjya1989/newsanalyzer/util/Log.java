@@ -8,12 +8,17 @@ import java.util.Calendar;
 public class Log {
 
 	public static String MAINDIR = "";
+	public static String LIBDIR = "\\lib"; 
+	public static String NLPDIR = "\\nlp";
 	public static String LOGDIR ="\\logs";
 	public static String RESDIR = "\\result";
+	public static String CONFDIR = "\\conf";
 	public static String TWITTERFILESDIR = "\\twitter";
 	public static String FACEBOOKFILESDIR = "\\facebook";
-	public static String BINGFILESDIR = "\\bing";
-	
+	public static String RSSFILESDIR = "\\rss";
+	//public static String BINGRSSURL = "https://www.bing.com/news?format=RSS&nvaug=%5bNewsVertical+Category%3d%22rt_Politics%22%5d&FORM=NWRFSH";
+	public static String RSSURLFILE = "\\rssurl";
+	public static String RSSURL[] = {"http://www.chosun.com/site/data/rss/politics.xml","http://rss.donga.com/politics.xml","http://www.hani.co.kr/rss/politics/"};
 	public static void log(Object obj, String ex)
 	{
 		System.out.println(obj + " : " + ex);

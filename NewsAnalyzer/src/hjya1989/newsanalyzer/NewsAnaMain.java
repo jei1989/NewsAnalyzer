@@ -2,15 +2,22 @@ package hjya1989.newsanalyzer;
 
 import java.util.Enumeration;
 
+import javax.swing.JTree;
 import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.DefaultTreeModel;
+import javax.swing.tree.TreeModel;
 import javax.swing.tree.TreePath;
 
 import hjya1989.newsanalyzer.util.Log;
+import hjya1989.newsanalyzer.rss.read.*;
 
 public class NewsAnaMain {
 
-	NewsAnaWindow newsAnaWindow;
+	public NewsAnaWindow newsAnaWindow;
 	TwitterAnalyzer twitterAnalyzer;
+	RSSFeedParser rssFeedParser;
+	RSSFeedAnalyzer rssFeedAnalyzer;
+	
 	public NewsAnaMain()
 	{
 		Log.MAINDIR = System.getProperty("user.dir");
@@ -19,14 +26,37 @@ public class NewsAnaMain {
 	
 	public void init(){
 		
-		newsAnaWindow = new NewsAnaWindow();
+		newsAnaWindow = new NewsAnaWindow(this);
 		twitterAnalyzer = new TwitterAnalyzer(this);
-		
+		rssFeedParser = new RSSFeedParser();
+		rssFeedAnalyzer = new RSSFeedAnalyzer(this);
+				
 		//twitterAnalyzer.setcurrentDateToParsing(date);
-		twitterAnalyzer.setStartDateToParsing("20161228 08:00:00");
-		twitterAnalyzer.setEndDateToParsing("20161228 10:00:00");
+		twitterAnalyzer.setStartDateToParsing("20161230 21:00:00");
+		twitterAnalyzer.setEndDateToParsing("20161230 22:00:00");
 		
+		
+	}
+	
+	
+	
+	public void twitterParsingStart()
+	{
 		new Thread(twitterAnalyzer).start();
+	}
+	
+	public void RSSFeedAnalyzerStart()
+	{
+		rssFeedAnalyzer.setStartDateToParsing("2017-01-02");
+		rssFeedAnalyzer.setEndDateToParsing("2017-01-03");
+		
+		new Thread(rssFeedAnalyzer).start();
+	}
+	
+	public void RSSFeedParsingStart(){
+
+		rssFeedParser.setRSSFeedURL();
+		new Thread(rssFeedParser).start();
 	}
 	
 	public static void main(String[] args) {
@@ -36,37 +66,44 @@ public class NewsAnaMain {
 		
 	}
 
+	public void setExpandTreeNode()
+	{
+		for( int cnt = 0 ; cnt < this.newsAnaWindow.tree.getRowCount() ; cnt++ )
+		{
+			this.newsAnaWindow.tree.expandRow( cnt );
+		}
+	}
 
 	
 	/************************/
-	public DefaultMutableTreeNode addTreeGrand(String message){
+	public DefaultMutableTreeNode addTreeGrand(String message, DefaultTreeModel treeModel, JTree tree){
 		
-		DefaultMutableTreeNode grand = addObject((DefaultMutableTreeNode)this.newsAnaWindow.treeModel.getRoot(),(Object)message,true);
+		DefaultMutableTreeNode grand = addObject((DefaultMutableTreeNode)treeModel.getRoot(),(Object)message,true, treeModel , tree);
 		
 		
 		//this.newsAnaWindow.tree.setModel(this.newsAnaWindow.defaultTreeModel);
 		//this.newsAnaWindow.tree.revalidate();
-		this.newsAnaWindow.treeModel.reload();
+		treeModel.reload();
 		//this.newsAnaWindow.tree.repaint();
 		return grand;
 	}
 	
-	public DefaultMutableTreeNode addTreeMother(DefaultMutableTreeNode grand, String message){
+	public DefaultMutableTreeNode addTreeMother(DefaultMutableTreeNode grand, String message, DefaultTreeModel treeModel, JTree tree){
 		
-		DefaultMutableTreeNode mother = addObject((DefaultMutableTreeNode)grand,(Object)message,true);
+		DefaultMutableTreeNode mother = addObject((DefaultMutableTreeNode)grand,(Object)message,true,treeModel ,  tree);
 		
 		
 		//this.newsAnaWindow.tree.setModel(this.newsAnaWindow.defaultTreeModel);
 		//this.newsAnaWindow.tree.revalidate();
-		this.newsAnaWindow.treeModel.reload();
+		treeModel.reload();
 		//this.newsAnaWindow.tree.repaint();
 		return mother;
 	}
 	
-	public void addTreeChild(DefaultMutableTreeNode mother, String message)
+	public void addTreeChild(DefaultMutableTreeNode mother, String message, DefaultTreeModel treeModel, JTree tree)
 	{
-		addObject((DefaultMutableTreeNode)mother,(Object)message,true);
-		this.newsAnaWindow.treeModel.reload();
+		addObject((DefaultMutableTreeNode)mother,(Object)message,true, treeModel , tree);
+		treeModel.reload();
 
 		//TreePath path = tree.getSelectionPath();
 		//DefaultMutableTreeNode node = (DefaultMutableTreeNode)path.getLastPathComponent();
@@ -77,21 +114,21 @@ public class NewsAnaMain {
 	
 	public DefaultMutableTreeNode addObject(DefaultMutableTreeNode parent,
 			Object child,
-			boolean shouldBeVisible)
+			boolean shouldBeVisible, DefaultTreeModel treeModel, JTree tree)
 	{
 		DefaultMutableTreeNode childNode = new DefaultMutableTreeNode(child);
 		try{
 			if( parent == null)
 			{
-				parent = this.newsAnaWindow.rootTreeNode;
+				parent = (DefaultMutableTreeNode)treeModel.getRoot();
 			}
 			
-			this.newsAnaWindow.treeModel.insertNodeInto(childNode, parent, parent.getChildCount());
-			this.newsAnaWindow.tree.setModel(this.newsAnaWindow.treeModel);
+			treeModel.insertNodeInto(childNode, parent, parent.getChildCount());
+			tree.setModel(treeModel);
 			
-			if( shouldBeVisible)
+			if( shouldBeVisible )
 			{
-				this.newsAnaWindow.tree.scrollPathToVisible(new TreePath(childNode.getPath()));
+				tree.scrollPathToVisible(new TreePath(childNode.getPath()));
 			}
 		}catch(Exception ex){
 			Log.errorLog(this, " addObject :: " + ex.toString());

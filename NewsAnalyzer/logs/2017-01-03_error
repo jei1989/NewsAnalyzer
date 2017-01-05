@@ -1,0 +1,135 @@
+[2017-01-03 00:04:57] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-03_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-03 00:10:09]  detailParser :: java.lang.ArrayIndexOutOfBoundsException: 5
+[2017-01-03 00:20:31] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 00:26:39] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-03_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-03 00:26:39] feed run :: java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-03 00:26:42] feed run :: java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-03 00:26:45] feed run :: java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-03 00:26:48] feed run :: java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-03 00:26:51] feed run :: java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-03 00:32:21] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 00:35:34] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 00:36:44] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 00:36:47] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 00:36:49] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 00:38:42] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 00:38:44] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 00:46:11] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 00:54:42] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 00:54:44] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 02:22:39] read = java.net.SocketException: Software caused connection abort: connect
+[2017-01-03 02:22:39] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 02:22:39] feed run :: java.lang.NullPointerException
+[2017-01-03 02:22:42] read = java.net.UnknownHostException: www.chosun.com
+[2017-01-03 02:22:42] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 02:22:42] feed run :: java.lang.NullPointerException
+[2017-01-03 02:22:45] read = java.net.UnknownHostException: www.chosun.com
+[2017-01-03 02:22:45] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 02:22:45] feed run :: java.lang.NullPointerException
+[2017-01-03 02:22:48] read = java.net.UnknownHostException: www.chosun.com
+[2017-01-03 02:22:48] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 02:22:48] feed run :: java.lang.NullPointerException
+[2017-01-03 02:22:51] read = java.net.UnknownHostException: www.chosun.com
+[2017-01-03 02:22:51] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 02:22:51] feed run :: java.lang.NullPointerException
+[2017-01-03 02:44:17] read = java.net.ConnectException: Connection timed out: connect
+[2017-01-03 02:44:17] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 02:44:17] feed run :: java.lang.NullPointerException
+[2017-01-03 02:44:35] read = java.net.UnknownHostException: www.chosun.com
+[2017-01-03 02:44:35] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 02:44:35] feed run :: java.lang.NullPointerException
+[2017-01-03 02:44:38] read = java.net.UnknownHostException: www.chosun.com
+[2017-01-03 02:44:38] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 02:44:38] feed run :: java.lang.NullPointerException
+[2017-01-03 02:44:41] read = java.net.UnknownHostException: www.chosun.com
+[2017-01-03 02:44:41] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 02:44:41] feed run :: java.lang.NullPointerException
+[2017-01-03 02:44:44] read = java.net.UnknownHostException: www.chosun.com
+[2017-01-03 02:44:44] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 02:44:44] feed run :: java.lang.NullPointerException
+[2017-01-03 02:45:01] read = java.net.UnknownHostException: www.chosun.com
+[2017-01-03 02:45:01] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 02:45:01] feed run :: java.lang.NullPointerException
+[2017-01-03 02:45:04] read = java.net.UnknownHostException: www.chosun.com
+[2017-01-03 02:45:04] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 02:45:04] feed run :: java.lang.NullPointerException
+[2017-01-03 02:45:07] read = java.net.UnknownHostException: www.chosun.com
+[2017-01-03 02:45:07] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 02:45:07] feed run :: java.lang.NullPointerException
+[2017-01-03 02:45:10] read = java.net.UnknownHostException: www.chosun.com
+[2017-01-03 02:45:10] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 02:45:10] feed run :: java.lang.NullPointerException
+[2017-01-03 03:08:53] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[361,99]
+Message: XML 문서 구조는 동일한 엔티티에서 시작되고 끝나야 합니다.
+[2017-01-03 03:09:08] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[361,99]
+Message: XML 문서 구조는 동일한 엔티티에서 시작되고 끝나야 합니다.
+[2017-01-03 03:10:22] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[368,1]
+Message: 후행 섹션에서는 콘텐츠가 허용되지 않습니다.
+[2017-01-03 03:10:25] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[368,1]
+Message: 후행 섹션에서는 콘텐츠가 허용되지 않습니다.
+[2017-01-03 04:12:53] read = java.net.SocketException: Software caused connection abort: connect
+[2017-01-03 04:12:53] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 04:12:53] feed run :: java.lang.NullPointerException
+[2017-01-03 04:18:24] read = java.net.NoRouteToHostException: No route to host: connect
+[2017-01-03 04:18:24] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 04:18:24] feed run :: java.lang.NullPointerException
+[2017-01-03 04:18:48] read = java.net.ConnectException: Connection timed out: connect
+[2017-01-03 04:18:48] readFeed = javax.xml.stream.XMLStreamException: java.net.MalformedURLException
+[2017-01-03 04:18:48] feed run :: java.lang.NullPointerException
+[2017-01-03 07:45:40] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 07:46:00] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 09:30:59] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 10:16:28] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-03_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-03 10:19:41] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-03_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-03 10:23:10] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-03_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-03 10:25:44] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-03_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-03 10:35:33] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-03_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-03 11:05:16] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-03_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-03 14:39:18] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-03_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-03 14:41:49] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-03_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-03 14:44:17] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-03_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-03 14:57:17] feed run :: java.lang.IndexOutOfBoundsException: Index: 30, Size: 30
+[2017-01-03 14:57:20] feed run :: java.lang.IndexOutOfBoundsException: Index: 30, Size: 30
+[2017-01-03 14:57:40] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-03_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-03 15:00:41] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 15:00:43] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 15:00:45] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 15:01:51] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-03_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-03 15:02:01] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 15:12:04] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-03_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-03 15:32:07] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 15:39:17] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 15:39:18] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 15:40:25] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 15:55:38] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 16:03:22] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 16:03:23] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 17:15:20] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 17:16:22] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 17:39:56] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[378,46]
+Message: 요소 유형 "description"은(는) 짝이 맞는 종료 태그 "</description>"(으)로 종료되어야 합니다.
+[2017-01-03 17:40:11] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 17:41:25] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 17:41:29] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 17:56:43] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[378,44]
+Message: 요소 유형 "pubDate"은(는) 짝이 맞는 종료 태그 "</pubDate>"(으)로 종료되어야 합니다.
+[2017-01-03 18:27:16] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 21:04:41] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[382,3]
+Message: 요소 유형 "channel"은(는) 짝이 맞는 종료 태그 "</channel>"(으)로 종료되어야 합니다.
+[2017-01-03 21:04:44] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[382,3]
+Message: 요소 유형 "channel"은(는) 짝이 맞는 종료 태그 "</channel>"(으)로 종료되어야 합니다.
+[2017-01-03 21:56:29] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[379,1]
+Message: 후행 섹션에서는 콘텐츠가 허용되지 않습니다.
+[2017-01-03 21:56:38] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[379,1]
+Message: 후행 섹션에서는 콘텐츠가 허용되지 않습니다.
+[2017-01-03 22:46:52] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-03 22:56:18] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[372,4]
+Message: XML 문서 구조는 동일한 엔티티에서 시작되고 끝나야 합니다.
+[2017-01-03 22:56:21] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[372,4]
+Message: XML 문서 구조는 동일한 엔티티에서 시작되고 끝나야 합니다.
+[2017-01-03 22:56:24] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[372,4]
+Message: XML 문서 구조는 동일한 엔티티에서 시작되고 끝나야 합니다.
+[2017-01-03 22:56:27] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[372,4]
+Message: XML 문서 구조는 동일한 엔티티에서 시작되고 끝나야 합니다.
+[2017-01-03 23:20:31] readFeed = javax.xml.stream.XMLStreamException: ParseError at [row,col]:[378,1]
+Message: 후행 섹션에서는 콘텐츠가 허용되지 않습니다.
