@@ -36,6 +36,8 @@ public class RSSFeedParser implements Runnable{
 	private URL url;
 	private String feedURL[]; 
 	
+	public boolean isTrue = true;
+	
 	//private StringBuffer strbuff;
 
 	public RSSFeedParser()
@@ -93,9 +95,9 @@ public class RSSFeedParser implements Runnable{
 	
 	public void run()
 	{
-		while(true){
+		while(isTrue){
 			try{
-				Thread.sleep(3000);
+				
 				int company = 0;
 				for( String furl : feedURL){
 					
@@ -121,6 +123,14 @@ public class RSSFeedParser implements Runnable{
 			{
 				Log.errorLog(this, "feed run :: " + ex.toString()); 
 			}
+			
+			try {
+				Thread.sleep(10000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				Log.errorLog(this, "feed run While Thread Sleep :: " + e.toString()); 
+			}
+			
 		}//while(true){
         //System.out.println("+++++++++++++++++++++++++++++++++++++++");
 	}
@@ -147,15 +157,28 @@ public class RSSFeedParser implements Runnable{
 					//fwriter.write(strbuff.toString());				
 					//String regex = "[^\uAC00-\uD7A3xfe0-9a-zA-Z\\s]";
 					if( temp.length > 1 ){
-						fwriter.write("##" + fos.format( fos.parse( temp[0]+ " " + temp[1] ))  + "##" + message.getTitle().trim() + "##" + message.getDescription().trim() + "##" + message.getLink().trim() + "##"  + message.getAuthor().trim() + "@@@");
-						fwriter.write("\r\n");
+						
+						if( filename.equals( (fo.format( fos.parse( temp[0]+ " " + temp[1] ))).toString()) ){//if current date is feed date are same
+							
+							fwriter.write("##" + fos.format( fos.parse( temp[0]+ " " + temp[1] ))  + "##" + message.getTitle().trim() + "##" + message.getDescription().trim() + "##" + message.getLink().trim() + "##"  + message.getAuthor().trim() + "@@@");
+							fwriter.write("\r\n");
+						
+						}
 					}else{
 						if( message.getDate().equals("") || message.getDate().equals(null)){
-							fwriter.write("##" + fos.format( dfEng.parse(message.getpubDate()) )  + "##" + message.getTitle().trim() + "##" + message.getDescription().trim() + "##" + message.getLink().trim() + "##"  + message.getAuthor().trim() + "@@@");
-							fwriter.write("\r\n");
+							if( filename.equals( (fo.format( dfEng.parse(message.getpubDate()) )).toString()) ){//if current date is feed date are same
+								
+								fwriter.write("##" + fos.format( dfEng.parse(message.getpubDate()) )  + "##" + message.getTitle().trim() + "##" + message.getDescription().trim() + "##" + message.getLink().trim() + "##"  + message.getAuthor().trim() + "@@@");
+								fwriter.write("\r\n");
+								
+							}
 						}else{
-							fwriter.write("##" + fos.format( dfEng.parse(message.getDate()) )  + "##" + message.getTitle().trim() + "##" + message.getDescription().trim() + "##" + message.getLink().trim() + "##"  + message.getAuthor().trim() + "@@@");
-							fwriter.write("\r\n");
+							if( filename.equals( (fo.format( dfEng.parse(message.getDate()) )).toString()) ){//if current date is feed date are same
+								
+								fwriter.write("##" + fos.format( dfEng.parse(message.getDate()) )  + "##" + message.getTitle().trim() + "##" + message.getDescription().trim() + "##" + message.getLink().trim() + "##"  + message.getAuthor().trim() + "@@@");
+								fwriter.write("\r\n");
+							
+							}
 						}
 					}
 						

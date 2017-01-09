@@ -18,6 +18,8 @@ public class Log {
 	public static String RSSFILESDIR = "\\rss";
 	//public static String BINGRSSURL = "https://www.bing.com/news?format=RSS&nvaug=%5bNewsVertical+Category%3d%22rt_Politics%22%5d&FORM=NWRFSH";
 	public static String RSSURLFILE = "\\rssurl";
+	public static String PROPERTIES_FILE = "\\conf\\property.conf";
+	public static String RSSTREE_LASTUPDATEDTIME = "\\rsstree_lastupdatedtime";
 	public static String RSSURL[] = {"http://www.chosun.com/site/data/rss/politics.xml","http://rss.donga.com/politics.xml","http://www.hani.co.kr/rss/politics/"};
 	public static void log(Object obj, String ex)
 	{

@@ -10,6 +10,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.List;
 
 import hjya1989.newsanalyzer.*;
@@ -92,6 +94,7 @@ public class NLPWriter implements Runnable{
 			this.message = message.replace('¡±', ' ');
 			this.message = message.replace('¡¯', ' ');
 			this.message = message.replace('¡¦', ' ');
+			this.message = message.replace("\r\n", " ");
 			this.message = message.replace("  ", " ");
 			this.message = message.replace("   ", " ");
 			
@@ -106,7 +109,7 @@ public class NLPWriter implements Runnable{
 		messageWriter(retmessage);
 		
 	}
-	
+/*****************	
 	public boolean checkSecond(String chk)
 	{
 		//boolean isChk = false;
@@ -118,7 +121,7 @@ public class NLPWriter implements Runnable{
 		}
 		return false;
 	}
-	
+/*****************/	
 	public void messageWriter(String msg){
 		
 		File file = new File( Log.MAINDIR + Log.NLPDIR );
@@ -130,7 +133,8 @@ public class NLPWriter implements Runnable{
 		String[] mmsge = msg.split("\\ ");
 		BufferedWriter wbuff = null;
 		BufferedReader rbuff = null;
-		
+		Calendar cal = Calendar.getInstance();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		
 		for( int cnt = 0 ; cnt < mmsge.length ; cnt++ )
 		{
@@ -191,8 +195,17 @@ public class NLPWriter implements Runnable{
 									
 									//}
 									if( !mmsge[cnt+1].trim().equals("") ){
+										cal = Calendar.getInstance();
 										
-										wbuff.write(tempstr[0].trim() + "|" + (Integer.parseInt(tempstr[1].trim())) + "|" + linecount++);
+										String tstr_0 = "";
+										
+										try{
+											tstr_0 = mmsge[cnt-1].trim();
+										}catch(Exception ex){
+											
+										}
+										
+										wbuff.write(tempstr[0].trim() + "|" + (Integer.parseInt(tempstr[1].trim())+1) + "|" + linecount++ + "|" + tempstr[3] + "|" + sdf.format(cal.getTime()) + "|" + tstr_0);
 										wbuff.write("\r\n");
 										wbuff.flush();
 										//System.out.println("file = " + mmsge[cnt] + " :: " + "true  :: " + tempstr[0] + " :: " + mmsge[cnt+1].trim() + " :: | " + (Integer.parseInt(tempstr[1])+1) );
@@ -207,7 +220,7 @@ public class NLPWriter implements Runnable{
 									//////////////strbuff.append("\r\n");
 									
 									//System.out.println("file = " + mmsge[cnt] + " :: " + "false :: " + mmsge[cnt+1] + " :: " + mmsge[cnt+1].trim() + " :: " + "|1" );
-									wbuff.write(tempstr[0].trim() + "|" + tempstr[1].trim() + "|" + linecount++);
+									wbuff.write(tempstr[0].trim() + "|" + tempstr[1].trim() + "|" + linecount++ + "|" + tempstr[3] + "|" + tempstr[4] + "|" + tempstr[5] );
 									wbuff.write("\r\n");
 									wbuff.flush();
 									
@@ -228,7 +241,18 @@ public class NLPWriter implements Runnable{
 						//}
 						if( !mmsge[cnt+1].trim().equals("") ){
 							
-							wbuff.write(mmsge[cnt+1].trim() +"|1" + "|" + linecount++);
+							cal = Calendar.getInstance();
+							
+							String tstr_0 = "";
+							
+							try{
+								tstr_0 = mmsge[cnt-1].trim();
+							}catch(Exception ex){
+								
+							}
+							
+							
+							wbuff.write(mmsge[cnt+1].trim() +"|1" + "|" + linecount++ + "|" + sdf.format(cal.getTime()) + "|" + sdf.format(cal.getTime()) + "|" + tstr_0);
 							wbuff.write("\r\n");
 							wbuff.flush();
 							//System.out.println("22222 :: " + mmsge[cnt+1] +"|1");
@@ -259,7 +283,17 @@ public class NLPWriter implements Runnable{
 							//System.out.println("33333 :: " + mmsge[cnt+1] +"|1" );
 							if(  !mmsge[cnt+1].trim().equals("") ){
 								
-								wbuff.write(mmsge[cnt+1].trim() +"|1" + "|" + linecount++);
+								cal = Calendar.getInstance();
+								
+								String tstr_0 = "";
+								
+								try{
+									tstr_0 = mmsge[cnt-1].trim();
+								}catch(Exception ex){
+									
+								}
+
+								wbuff.write(mmsge[cnt+1].trim() +"|1" + "|" + linecount++ + "|" + sdf.format(cal.getTime()) + "|" + sdf.format(cal.getTime())  + "|" + tstr_0);
 								wbuff.write("\r\n");
 								wbuff.flush();
 								

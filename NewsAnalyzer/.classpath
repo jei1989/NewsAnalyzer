@@ -8,5 +8,6 @@
 	<classpathentry kind="lib" path="C:/eclipse/git/NewsAnalyzer/NewsAnalyzer/lib/models-light.zip"/>
 	<classpathentry kind="lib" path="C:/eclipse/git/NewsAnalyzer/NewsAnalyzer/lib/shineware-common-2.0.jar"/>
 	<classpathentry kind="lib" path="C:/eclipse/git/NewsAnalyzer/NewsAnalyzer/lib/shineware-ds-1.0.jar"/>
+	<classpathentry kind="lib" path="DateChooser.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

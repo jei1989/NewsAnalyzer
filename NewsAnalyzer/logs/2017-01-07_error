@@ -1,0 +1,51 @@
+[2017-01-07 00:20:23] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-07 00:20:29] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-07 00:25:25] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-07_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 00:25:47] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-07 01:10:25] tree MouseClicked :: java.lang.NullPointerException
+[2017-01-07 07:40:23] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-07 21:41:03] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-07 23:03:51] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-07_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:05:03] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-07_1 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:05:03] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-07_2 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:11:10] messageWriter :: rbuff :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\nlp\신현재 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:11:10] messageWriter :: rbuff :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\nlp\스카이라이프 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:11:10] messageWriter :: if( readFileExist ) else :: java.lang.ArrayIndexOutOfBoundsException: 2
+[2017-01-07 23:13:14] messageWriter :: rbuff :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\nlp\신현재 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:13:14] messageWriter :: if( readFileExist ) else :: java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-07 23:13:14] messageWriter :: rbuff :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\nlp\스카이라이프 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:13:14] messageWriter :: if( readFileExist ) else :: java.lang.ArrayIndexOutOfBoundsException: 2
+[2017-01-07 23:13:48] messageWriter :: rbuff :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\nlp\신현재 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:13:48] messageWriter :: if( readFileExist ) else :: java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-07 23:13:48] messageWriter :: rbuff :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\nlp\스카이라이프 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:13:48] messageWriter :: if( readFileExist ) else :: java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-07 23:13:48] while :: java.lang.NullPointerException
+[2017-01-07 23:13:48] messageWriter :: rbuff :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\nlp\가온미디어 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:13:48] messageWriter :: if( readFileExist ) else :: java.lang.ArrayIndexOutOfBoundsException: 4
+[2017-01-07 23:17:57] messageWriter :: rbuff :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\nlp\신현재 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:17:57] messageWriter :: if( readFileExist ) else :: java.lang.IllegalArgumentException: Cannot format given Object as a Date
+[2017-01-07 23:17:57] messageWriter :: rbuff :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\nlp\스카이라이프 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:17:57] messageWriter :: if( readFileExist ) else :: java.lang.ArrayIndexOutOfBoundsException: 2
+[2017-01-07 23:21:14] messageWriter :: rbuff :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\nlp\신현재 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:21:14] messageWriter :: rbuff :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\nlp\스카이라이프 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:21:14] messageWriter :: if( readFileExist ) else :: java.lang.ArrayIndexOutOfBoundsException: 2
+[2017-01-07 23:21:37] while :: java.lang.NullPointerException
+[2017-01-07 23:21:37] while :: java.lang.NullPointerException
+[2017-01-07 23:21:37] while :: java.lang.ArrayIndexOutOfBoundsException: 5
+[2017-01-07 23:21:37] messageWriter :: rbuff :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\nlp\아카넷티비 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:21:37] messageWriter :: if( readFileExist ) else :: java.lang.ArrayIndexOutOfBoundsException: 4
+[2017-01-07 23:22:01] while :: java.lang.NullPointerException
+[2017-01-07 23:22:01] while :: java.lang.NullPointerException
+[2017-01-07 23:22:01] while :: java.lang.ArrayIndexOutOfBoundsException: 5
+[2017-01-07 23:22:01] while :: java.lang.NullPointerException
+[2017-01-07 23:22:01] messageWriter :: if( readFileExist ) else :: java.lang.ArrayIndexOutOfBoundsException: 4
+[2017-01-07 23:22:32] while :: java.lang.NullPointerException
+[2017-01-07 23:22:32] messageWriter :: rbuff :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\nlp\가온미디어 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:22:32] while :: java.lang.ArrayIndexOutOfBoundsException: 5
+[2017-01-07 23:22:32] messageWriter :: rbuff :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\nlp\에이스 (지정된 파일을 찾을 수 없습니다)
+[2017-01-07 23:22:32] messageWriter :: if( readFileExist ) else :: java.lang.ArrayIndexOutOfBoundsException: 4
+[2017-01-07 23:23:18] while :: java.lang.NullPointerException
+[2017-01-07 23:23:18] while :: java.lang.NullPointerException
+[2017-01-07 23:23:18] while :: java.lang.ArrayIndexOutOfBoundsException: 5
+[2017-01-07 23:23:18] while :: java.lang.NullPointerException
+[2017-01-07 23:23:18] messageWriter :: if( readFileExist ) else :: java.lang.ArrayIndexOutOfBoundsException: 4
