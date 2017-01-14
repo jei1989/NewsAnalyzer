@@ -62,7 +62,13 @@ public class FeedMessage {
 		}
 		
 		public String getpubDate() {
-		   return pubDate;
+			if (pubDate == null || pubDate.equals("") )
+			{
+				return getDate();
+			}else{
+				return pubDate;
+			}			
+		   
 		}
 	
 		public void setpubDate(String pubDate) {
@@ -70,7 +76,13 @@ public class FeedMessage {
 		}		
 	
 		public String getDate() {
-		   return date;
+			if (date == null || date.equals("") )
+			{
+				return getpubDate();
+			}else{
+				return date;
+			}			
+
 		}
 	
 		public void setDate(String date) {
@@ -81,7 +93,8 @@ public class FeedMessage {
 		{
 			return "FeedMessage [title = " + title + ", description = " + description 
 											+ ", link = " + link + ", author = " + author + ", guid = " + guid
-											+ ", pubDate=" + pubDate 
+											+ ", pubDate=" + pubDate
+											+ ", date=" + date 
 											+"]";
 		}
 }

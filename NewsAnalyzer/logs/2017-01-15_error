@@ -1,0 +1,15 @@
+[2017-01-15 01:39:04] detailparser2 :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-15 01:44:53] detailparser2 :: java.lang.ArrayIndexOutOfBoundsException
+[2017-01-15 01:44:56] detailparser2 :: java.lang.ArrayIndexOutOfBoundsException
+[2017-01-15 01:45:16] detailparser2 :: java.lang.ArrayIndexOutOfBoundsException
+[2017-01-15 01:45:20] detailparser2 :: java.lang.ArrayIndexOutOfBoundsException
+[2017-01-15 01:45:44] detailparser2 :: java.lang.ArrayIndexOutOfBoundsException
+[2017-01-15 01:46:57] detailparser2 :: 0 :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-15 01:46:57] detailparser2 :: 0 :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-15 01:46:57] detailparser2 :: 0 :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-15 02:01:46] detailparser2 :: 0 :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-15 02:01:46] detailparser2 :: 0 :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-15 02:01:46] detailparser2 :: 0 :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-15 03:27:56] readFile :: java.io.UnsupportedEncodingException: UTF-9
+[2017-01-15 03:28:25] readFile :: java.lang.NullPointerException
+[2017-01-15 03:29:54] readFile :: java.lang.NullPointerException

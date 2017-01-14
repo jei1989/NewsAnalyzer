@@ -31,7 +31,7 @@ public class RSSFeedAnalyzer implements Runnable{
 	public RSSFeedAnalyzer(NewsAnaMain newsAnaMain)
 	{
 		this.newsAnaMain = newsAnaMain;
-		vecObject = new Vector();
+		
 		//vecObject.elementAt(0) //chosun
 		//vecObject.elementAt(1) //donga
 		//vecObject.elementAt(2) //hankyoreh
@@ -57,6 +57,59 @@ public class RSSFeedAnalyzer implements Runnable{
 		}
 	}	
 	
+	public void removeTableAt(int row)
+	{
+		try{
+			this.newsAnaMain.newsAnaWindow.model.fireTableRowsDeleted(row,row);
+			this.newsAnaMain.newsAnaWindow.model.fireTableDataChanged();
+		}catch(Exception ex){
+			Log.errorLog(this, "removeTableAt() :: " + ex);
+		}		
+	}
+	
+	public void removeTableAll(){
+		try{
+			int max = this.newsAnaMain.newsAnaWindow.model.getRowCount();
+			if( max > 0 ){
+				for( int row = 0 ; row < max ; row++ )
+				{
+					//System.out.println( this.newsAnaMain.newsAnaWindow.model.getValueAt(0, 1) );
+					this.newsAnaMain.newsAnaWindow.model.removeRow(0);
+					
+				}
+				this.newsAnaMain.newsAnaWindow.model.fireTableDataChanged();
+			}
+		}catch(Exception ex){
+			Log.errorLog(this, "removeTableAll() :: " + ex);
+		}		
+	}
+	
+	public void addTable()
+	{
+		removeTableAll();
+		try{
+			int row = 0;
+			
+			for( Object obj : this.vecObject)
+			{
+				RSSFeedRowData rssFeedRowData = (RSSFeedRowData)obj;
+				
+				for( Object detail : rssFeedRowData.getVec() )
+				{
+					//System.out.println( " " + String.valueOf(row+1) + " : " +  ((RSSFeedRowDataDetail)detail).getTitle());
+					
+					this.newsAnaMain.newsAnaWindow.model.addRow( new String[]{ " " + String.valueOf(row+1), ((RSSFeedRowDataDetail)detail).getTitle(),((RSSFeedRowDataDetail)detail).getLink()} );
+					row++;
+				}
+			}
+			this.newsAnaMain.newsAnaWindow.table.setRowHeight(25);
+			this.newsAnaMain.newsAnaWindow.table.changeSelection(this.newsAnaMain.newsAnaWindow.model.getRowCount()-1, 0, false, false);
+		}catch(Exception ex){
+			Log.errorLog(this, "addTable() :: " + ex);
+		}
+			
+	}
+	
 	public void addRssTree()
 	{
 		try{
@@ -64,16 +117,32 @@ public class RSSFeedAnalyzer implements Runnable{
 			DefaultMutableTreeNode node = null;
 			DefaultMutableTreeNode childnode = null;
 			
+			//Vector vec = new Vector();
+
 			for( Object obj : this.vecObject)
 			{
 				
 				RSSFeedRowData rssFeedRowData = (RSSFeedRowData)obj;
 				//node = this.newsAnaMain.addTreeGrand("조선일보", this.newsAnaMain.newsAnaWindow.rssTreeModel,this.newsAnaMain.newsAnaWindow.rssTree);
+				//System.out.println( this.newsAnaMain.newsAnaWindow.rssTreeModel.getPathToRoot( root )[1] );
 				
-				/***************/
+				
+				
+				//#################################################
+				/********************************
+				RSSFeedRowDataDetail mdetail = (RSSFeedRowDataDetail)rssFeedRowData.getVec(cnt);
+				System.out.println( mdetail.getTitle() );
+				/********************************/
+				//#################################################
+				if( this.newsAnaMain.returnSearchNode(  ((File)vecFiles.elementAt(cnt)).getName() ) == null ) {
+					node = this.newsAnaMain.addTreeGrand(((File)vecFiles.elementAt(cnt)).getName(), this.newsAnaMain.newsAnaWindow.rssTreeModel,this.newsAnaMain.newsAnaWindow.rssTree);
+				}else{
+					node = this.newsAnaMain.returnSearchNode(  ((File)vecFiles.elementAt(cnt)).getName() );
+				}
+				/***************
 				if( cnt == 0 )
 				{
-					node = this.newsAnaMain.addTreeGrand("조선일보", this.newsAnaMain.newsAnaWindow.rssTreeModel,this.newsAnaMain.newsAnaWindow.rssTree);
+					node = this.newsAnaMain.addTreeGrand(((File)vecFiles.elementAt(cnt)).getName(), this.newsAnaMain.newsAnaWindow.rssTreeModel,this.newsAnaMain.newsAnaWindow.rssTree);
 				}else if( cnt == 1)
 				{
 					node = this.newsAnaMain.addTreeGrand("동아일보", this.newsAnaMain.newsAnaWindow.rssTreeModel,this.newsAnaMain.newsAnaWindow.rssTree);
@@ -84,25 +153,36 @@ public class RSSFeedAnalyzer implements Runnable{
 				/***************/
 				cnt++;
 				String temp = "";
+
 				for( Object detail : rssFeedRowData.getVec())
 				//for( int count = this.rssFeedRowData.getVec().size()-1; count >= 0 ; count-- )////reverse parsing
 				{
 					//Object detail = rssFeedRowData.getVec().elementAt(count);//reverse parsing
+					if( this.newsAnaMain.returnSearchNode(  ((RSSFeedRowDataDetail)detail).getTitle() ) == null ) {
+						childnode = this.newsAnaMain.addTreeMother(node, ((RSSFeedRowDataDetail)detail).getTitle(), this.newsAnaMain.newsAnaWindow.rssTreeModel, this.newsAnaMain.newsAnaWindow.rssTree);
+					}else{
+						childnode = this.newsAnaMain.returnSearchNode(  ((RSSFeedRowDataDetail)detail).getTitle() );
+					}
 					
-					childnode = this.newsAnaMain.addTreeMother(node, ((RSSFeedRowDataDetail)detail).getTitle(), this.newsAnaMain.newsAnaWindow.rssTreeModel, this.newsAnaMain.newsAnaWindow.rssTree);
+					//childnode = this.newsAnaMain.addTreeMother(node, ((RSSFeedRowDataDetail)detail).getTitle(), this.newsAnaMain.newsAnaWindow.rssTreeModel, this.newsAnaMain.newsAnaWindow.rssTree);
 					
 					//temp = ((RSSFeedRowDataDetail)detail).getTitle();
 					//this.newsAnaMain.addTreeChild(childnode, temp , this.newsAnaMain.newsAnaWindow.rssTreeModel, this.newsAnaMain.newsAnaWindow.rssTree);
-					temp = ((RSSFeedRowDataDetail)detail).getDescription();
-					this.newsAnaMain.addTreeChild(childnode, temp , this.newsAnaMain.newsAnaWindow.rssTreeModel, this.newsAnaMain.newsAnaWindow.rssTree);
-					temp = ((RSSFeedRowDataDetail)detail).getLink();
-					this.newsAnaMain.addTreeChild(childnode, temp , this.newsAnaMain.newsAnaWindow.rssTreeModel, this.newsAnaMain.newsAnaWindow.rssTree);
-					temp = ((RSSFeedRowDataDetail)detail).getDate();
-					this.newsAnaMain.addTreeChild(childnode, temp , this.newsAnaMain.newsAnaWindow.rssTreeModel, this.newsAnaMain.newsAnaWindow.rssTree);
-					
+					if( !this.newsAnaMain.searchNode(  ((RSSFeedRowDataDetail)detail).getDescription()) ){
+						
+						temp = ((RSSFeedRowDataDetail)detail).getDescription();
+						this.newsAnaMain.addTreeChild(childnode, temp , this.newsAnaMain.newsAnaWindow.rssTreeModel, this.newsAnaMain.newsAnaWindow.rssTree);
+						temp = ((RSSFeedRowDataDetail)detail).getLink();
+						this.newsAnaMain.addTreeChild(childnode, temp , this.newsAnaMain.newsAnaWindow.rssTreeModel, this.newsAnaMain.newsAnaWindow.rssTree);
+						temp = ((RSSFeedRowDataDetail)detail).getDate();
+						this.newsAnaMain.addTreeChild(childnode, temp , this.newsAnaMain.newsAnaWindow.rssTreeModel, this.newsAnaMain.newsAnaWindow.rssTree);	
+						
+					}
+
 				}
 				
-			}
+			}//for( Object obj : this.vecObject)
+
 						
 			
 		}catch(Exception ex)
@@ -122,7 +202,12 @@ public class RSSFeedAnalyzer implements Runnable{
 		
 		File[] files = null;
 		Date currFileDate = null;
-		vecFiles = new Vector();
+		//vecFiles = new Vector();
+		if( vecFiles != null ){
+			vecFiles.removeAllElements();
+		}else{
+			vecFiles = new Vector();
+		}
 		
 		try{
 			files = new File(Log.MAINDIR + Log.RESDIR + Log.RSSFILESDIR).listFiles();
@@ -140,6 +225,7 @@ public class RSSFeedAnalyzer implements Runnable{
 				if( currFileDate.after( this.startDateToParsing ) && currFileDate.before( this.endDateToParsing) )
 				{
 					vecFiles.addElement(file);
+					
 				}
 				
 			}
@@ -150,38 +236,78 @@ public class RSSFeedAnalyzer implements Runnable{
 		
 		detailParser(vecFiles);
 		
+		//this.newsAnaMain.setWebEngine_local("file:///"+Log.MAINDIR+Log.CONFDIR+Log.REPORTHTMLFILE);
+		this.newsAnaMain.setPieChart();
+		
 	}
 	
-	private void detailParser(Vector vecFiles)
+	private void detailParser(Vector<File> vecFiles)
 	{
 		BufferedReader buff = null;
 		StringBuffer strbuff = null;
 		String temp = "";
 		String[] parseString = null;
 		try{
-			for( Object file : vecFiles)
-			{
-				int cnt = Integer.valueOf(((File)file).getName().split("\\_")[1]);
-				
-				strbuff = new StringBuffer();
-				buff = new BufferedReader(new InputStreamReader(new FileInputStream( (File)file ),"euc-kr"));
-				
-				while( ( temp = buff.readLine() ) != null )
+			
+			
+			
+			vecObject = new Vector<Object>();
+			try{
+				for( Object file : vecFiles)
 				{
-					strbuff.append(temp);
+					try{
+						int cnt = Integer.valueOf(((File)file).getName().split("\\_")[1]);
+						
+						strbuff = new StringBuffer();
+						buff = new BufferedReader(new InputStreamReader(new FileInputStream( (File)file ),"euc-kr"));
+						
+						while( ( temp = buff.readLine() ) != null )
+						{
+							strbuff.append(temp);
+						}
+						
+						rssFeedRowData = new RSSFeedRowData();
+						rssFeedRowData.removeAll();
+						
+						parseString = strbuff.toString().split("\\@@@");
+						
+						for( String parser : parseString ){
+							rssFeedRowData.addVec(new RSSFeedRowDataDetail(parser));
+						}
+						vecObject.addElement(rssFeedRowData);
+					}catch(Exception ex)
+					{
+						Log.errorLog(this, "detailparser2 :: 0 :: " + ex);
+					}
 				}
-				
-				rssFeedRowData = new RSSFeedRowData();
-				
-				parseString = strbuff.toString().split("\\@@@");
-				
-				for( String parser : parseString ){
-					rssFeedRowData.addVec(new RSSFeedRowDataDetail(parser));
+			}catch(Exception ex)
+			{
+				Log.errorLog(this, "detailparser2 :: " + ex);
+			}
+			/*************************
+			for( int count =0 ; count < vecObject.size() ; count++ ){
+				RSSFeedRowData rssFeedRowData = (RSSFeedRowData)vecObject.elementAt(count);
+				for( int line = 0 ; line < rssFeedRowData.getVec().size() ; line++ ){
+					System.out.println("RSSFeedRowDataDetail :: " + ((RSSFeedRowDataDetail)rssFeedRowData.getVec(line)).getDate() + " :: " +((RSSFeedRowDataDetail)rssFeedRowData.getVec(line)).getTitle() );
 				}
-				vecObject.addElement(rssFeedRowData);
+			}
+			/*************************/
+			try{
+				addRssTree();
+				addTable();
+			}catch(Exception ex)
+			{
+				Log.errorLog(this, "detailparser1 :: " + ex);
 			}
 			
-			addRssTree();
+			try{
+				this.newsAnaMain.tableAnalyzer.removeAll();
+				this.newsAnaMain.tableAnalyzer.setTable(this.newsAnaMain.newsAnaWindow.table);
+				this.newsAnaMain.tableAnalyzer.tableAnalyer();
+			}catch(Exception ex)
+			{
+				Log.errorLog(this, "detailparser1 :: " + ex);
+			}
 			
 		}catch(Exception ex){
 			Log.errorLog(this, " detailParser :: " + ex.toString());

@@ -21,6 +21,10 @@ public class Log {
 	public static String PROPERTIES_FILE = "\\conf\\property.conf";
 	public static String RSSTREE_LASTUPDATEDTIME = "\\rsstree_lastupdatedtime";
 	public static String RSSURL[] = {"http://www.chosun.com/site/data/rss/politics.xml","http://rss.donga.com/politics.xml","http://www.hani.co.kr/rss/politics/"};
+	public static String REPORTHTMLFILE = "\\report.html";
+	
+	public static String CUSTOMFILE = "\\custom";
+	
 	public static void log(Object obj, String ex)
 	{
 		System.out.println(obj + " : " + ex);

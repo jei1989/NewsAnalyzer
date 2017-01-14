@@ -142,6 +142,7 @@ public class RSSFeedParser implements Runnable{
 		String filename = fo.format(cal.getTime());		
 		SimpleDateFormat fos = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		SimpleDateFormat dfEng = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss Z", Locale.ENGLISH);
+		SimpleDateFormat dfEngChosun = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssX", Locale.ENGLISH);
 		File mfile = new File(Log.MAINDIR+Log.RESDIR+Log.RSSFILESDIR+"\\" + filename+"_"+company);
 		
 		if( !feedDataDuplicatedCheck( message.getTitle().trim() , company) )
@@ -149,33 +150,61 @@ public class RSSFeedParser implements Runnable{
 			//Log.log(this, "mfile exits() = " + mfile.getName() + " : " + mfile.exists() );
 			try {
 				FileWriter fwriter = new FileWriter(Log.MAINDIR+Log.RESDIR+Log.RSSFILESDIR+"\\" + filename +"_"+company,true);
-				
 				try{
-					String[] temp = message.getDate().split("T");					
+					/**************
+					String[] temp = message.getDate().split("T");
+					if( temp[0].toString().equals(""))
+					{
+						
+					}
 					//System.out.println( message.getTitle() + " :: " +  frmat.format( frmat.parse( temp[0]+ " " + temp[1])) );
 					
 					//fwriter.write(strbuff.toString());				
 					//String regex = "[^\uAC00-\uD7A3xfe0-9a-zA-Z\\s]";
+					System.out.println( temp[0] + " :  " + temp[1]);
 					if( temp.length > 1 ){
 						
 						if( filename.equals( (fo.format( fos.parse( temp[0]+ " " + temp[1] ))).toString()) ){//if current date is feed date are same
-							
+							System.out.println( "333");
 							fwriter.write("##" + fos.format( fos.parse( temp[0]+ " " + temp[1] ))  + "##" + message.getTitle().trim() + "##" + message.getDescription().trim() + "##" + message.getLink().trim() + "##"  + message.getAuthor().trim() + "@@@");
 							fwriter.write("\r\n");
 						
 						}
 					}else{
+					
+					System.out.println("============================");
+					System.out.println(feed.toString());
+					System.out.println("============================");
+					/**************/
+					if(true){
+						
 						if( message.getDate().equals("") || message.getDate().equals(null)){
-							if( filename.equals( (fo.format( dfEng.parse(message.getpubDate()) )).toString()) ){//if current date is feed date are same
+							
+							Date mdate = null;
+							try{
+								mdate = dfEng.parse(message.getpubDate());
+							}catch(Exception ex){
 								
-								fwriter.write("##" + fos.format( dfEng.parse(message.getpubDate()) )  + "##" + message.getTitle().trim() + "##" + message.getDescription().trim() + "##" + message.getLink().trim() + "##"  + message.getAuthor().trim() + "@@@");
+								mdate = dfEngChosun.parse(message.getpubDate());
+							}
+							
+							if( filename.equals( (fo.format( mdate )).toString()) ){//if current date is feed date are same
+								fwriter.write("##" + fos.format( mdate )  + "##" + message.getTitle().trim() + "##" + message.getDescription().trim() + "##" + message.getLink().trim() + "##"  + message.getAuthor().trim() + "@@@");
 								fwriter.write("\r\n");
 								
 							}
 						}else{
-							if( filename.equals( (fo.format( dfEng.parse(message.getDate()) )).toString()) ){//if current date is feed date are same
+						
+							Date mdate = null;
+							try{
+								mdate = dfEng.parse(message.getDate());
+							}catch(Exception ex){
 								
-								fwriter.write("##" + fos.format( dfEng.parse(message.getDate()) )  + "##" + message.getTitle().trim() + "##" + message.getDescription().trim() + "##" + message.getLink().trim() + "##"  + message.getAuthor().trim() + "@@@");
+								mdate = dfEngChosun.parse(message.getDate());
+							}
+							
+							if( filename.equals( (fo.format( mdate )).toString()) ){//if current date is feed date are same
+								fwriter.write("##" + fos.format( mdate )  + "##" + message.getTitle().trim() + "##" + message.getDescription().trim() + "##" + message.getLink().trim() + "##"  + message.getAuthor().trim() + "@@@");
 								fwriter.write("\r\n");
 							
 							}

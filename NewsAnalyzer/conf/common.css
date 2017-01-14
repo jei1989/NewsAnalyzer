@@ -1,0 +1,412 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/NanumGothic.eot);
+  src: url(font/NanumGothic.eot?#iefix) format('embedded-opentype'),
+       url(font/NanumGothic.woff) format('woff'),
+       url(font/NanumGothic-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url(font/NanumGothic-Bold.eot);
+  src: url(font/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+       url(font/NanumGothic-Bold.woff) format('woff'),
+       url(font/NanumGothic-Bold.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'Nanum Gothic ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  src: url(font/NanumGothic-ExtraBold.eot);
+  src: url(font/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'),
+       url(font/NanumGothic-ExtraBold.woff) format('woff'),
+       url(font/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+/* default */
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p{margin:0;padding:0;font-size:1em;}
+ul,ol{list-style:none;}
+img{border:0;vertical-align:top;font-size:0;line-height:0;}
+a{text-decoration:none;color:#565656;}
+span,strong,a{display:inline-block;}
+em,address{font-style:normal;}
+table{width:100%;table-layout:fixed;border-collapse:collapse;}
+select{height:40px;border:1px solid #b3b3b3;font-size:13px;color:#565656;}
+input.input_txt{height:28px;padding:0 10px;border:1px solid #c0c0c0;font-size:13px;color:#565656;line-height:28px;vertical-align:middle;}
+textarea{padding:6px 10px 9px;border:1px solid #c0c0c0;color:#565656;line-height:30px;resize:none;}
+
+body{font-size:14px;font-family:"Malgun Gothic", "留묒�怨좊뵓", "Nanum Gothic", "�섎닎怨좊뵓", "�뗭�", "Dotum", "Droid Sans Fallback", Roboto, AppleGothic, AppleSDGothicNeoBold, sans-serif, Helvetica;color:#787878;line-height:1.3;}
+caption{visibility:hidden;overflow:hidden;width:0;height:0;font-size:0;line-height:0;text-indent:-9999em;}
+.radio_label{margin-right:10px;}
+.radio_label input[type=radio]{margin:0 4px 0 0;vertical-align:middle;}
+
+/* layout */
+#header{border-bottom:1px solid #ccc;z-index:3;}
+#header .header_inner{position:relative;max-width:1000px;height:110px;margin:0 auto;}
+#header .logo{padding-top:30px;}
+#header .logo a{width:159px;height:48px;overflow:hidden;background:url("/images/egovframework/npad/common/logo.gif") no-repeat;line-height:999px;}
+#header .lang_menu{position:absolute;top:40px;right:45px;}
+/* #header .lang_menu a{width:23px;height:38px;padding:0 20px 0 15px;border:1px solid #d7d7d7;background:url("/images/egovframework/npad/common/bg_slt.png") #fff no-repeat 38px center;font-size:12px;font-weight:bold;color:#565656;line-height:38px;}
+ */
+ #header .lang_menu a{width:30px;height:38px;padding:0 20px 0 15px;border:1px solid #d7d7d7;font-size:12px;font-weight:bold;color:#565656;line-height:38px;}
+
+#header .btn_join{display:none;}
+#header .btn_allmenu{position:absolute;top:40px;right:0;width:40px;height:40px;overflow:hidden;background:url("/images/egovframework/npad/common/all_menu.gif") no-repeat;line-height:999px;}
+
+#footer{background:#fff;}
+#footer .inner{position:relative;max-width:843px;height:94px;margin:0 auto;padding:30px 0 0 157px;}
+#footer .foot_logo{position:absolute;top:31px;left:0;width:134px;height:42px;overflow:hidden;background:url("/images/egovframework/npad/common/foot_logo.gif") no-repeat;line-height:999px;}
+#footer address{margin-bottom:7px;font-size:12px;color:#787878;}
+#footer .copyright{font-size:12px;color:#9ca8b0;}
+#footer .copyright em{color:#393d46;}
+#footer .family_site{position:absolute;top:30px;right:0;}
+#footer .family_site:after{content:"";display:block;clear:both;}
+#footer .family_site > div{display:inline-block;position:relative;margin-left:1px;}
+#footer .family_site > div > a{display:block;height:36px;padding:0 30px 0 10px;border:1px solid #b3b3b3;background:url("/images/egovframework/npad/common/bg_slt02.png") no-repeat 93% center;font-size:12px;line-height:36px;}
+#footer .family_site .family1 > a{width:97px;}
+#footer .family_site .family2 > a{width:122px;}
+#footer .family_site .family_list{display:none;position:absolute;left:0;bottom:37px;height:208px;overflow-y:auto;padding:7px 0;border:1px solid #b3b3b3;background:#fff;}
+#footer .family_site .family1 .family_list{width:137px;}
+#footer .family_site .family2 .family_list{width:162px;}
+#footer .family_site .family_list li a{display:block;padding:3px 5px 5px;}
+#footer .family_site .family_list li a:hover,#footer .family_site .family_list li a:focus{background:#eee;text-decoration:underline;}
+
+#gnb{position:absolute;top:40px;right:130px;}
+#gnb > ul{}
+#gnb > ul:after{content:"";display:block;clear:both;}
+#gnb > ul > li{position:relative;float:left;background:#fff;}
+#gnb > ul > li.active{}
+#gnb > ul > li > a{width:105px;height:40px;text-align:center;font-size:18px;color:#232323;line-height:40px;}
+#gnb > ul > li.active > a{width:103px;border:1px solid #d7d7d7;border-bottom:0;font-weight:bold;color:#1295fe;}
+#gnb > ul > li.active .depth2{display:block;z-index:2;}
+#gnb .depth2{display:none;position:absolute;left:0;width:103px;padding-top:29px;border:1px solid #d7d7d7;border-top:0;background:#fff;}
+#gnb .depth2 > ul > li{margin-bottom:22px;padding:0 5px 0 10px;}
+#gnb .depth2 > ul > li a{width:auto;height:auto;text-align:left;font-size:14px;font-weight:normal;color:#787878;letter-spacing:-2px;}
+#gnb .depth2 > ul > li a:hover,#gnb .depth2 > ul > li a:focus{font-weight:bold;color:#565656;}
+#gnb .depth2 > ul ul{margin-top:10px;}
+#gnb .depth2 > ul ul li{margin:0 0 2px 0;padding-left:9px;background:url("/images/egovframework/npad/common/bg_1x5_787878.gif") no-repeat 0 9px;}
+#gnb .depth2 > ul ul li a{font-size:12px;}
+
+.all_menu{display:none;position:absolute;top:39px;right:0;width:100%;background:#fff;z-index:2;}
+.all_menu .inner{position:relative;border:1px solid #d9dade;}
+.all_menu .inner > .menu:after{content:"";display:block;clear:both;}
+.all_menu .inner > .menu > li{height:370px;float:left;padding:20px 10px 20px 20px;border-left:1px solid #d9dade;}
+.all_menu .inner > .menu > li:first-child{border-left:0;}
+.all_menu .inner > .menu > li > a{font-size:18px;font-weight:bold;color:#2d9bea;}
+.all_menu .inner .depth2{margin-top:32px;}
+.all_menu .inner .depth2 > ul > li{margin-bottom:12px;}
+.all_menu .inner .depth2 > ul > li a:hover,.all_menu .inner .depth2 > ul > li a:focus{font-weight:bold;color:#565656;}
+.all_menu .inner .depth2 ul ul{margin-top:4px;}
+.all_menu .inner .depth2 ul ul li{margin:0 0 2px 0;padding-left:9px;background:url("/images/egovframework/npad/common/bg_1x5_787878.gif") no-repeat 0 9px;}
+.all_menu .inner .depth2 ul ul li a{font-size:12px;}
+.all_menu .menu_desc{display:none;}
+.all_menu .direct_menu{display:none;}
+.all_menu .cls_allmenu{position:absolute;top:0;right:0;width:40px;height:40px;overflow:hidden;background:url("/images/egovframework/npad/common/btn_cls.gif") no-repeat;line-height:999px;}
+.all_m1{width:162px;}
+.all_m2{width:134px;}
+.all_m3{width:124px;}
+.all_m4{width:124px;}
+.all_m5{width:124px;}
+.all_m6{width:145px;}
+
+.quickmenu{position:fixed;top:148px;right:0;z-index:1;}
+.quickmenu .inner{position:relative;}
+.quickmenu .menu{}
+.quickmenu .menu > li{margin-top:-1px;line-height:0;}
+.quickmenu .menu > li .join_tit{background:url("/images/egovframework/npad/common/btn_join_on.png") 25px 15px no-repeat #0065bc;color:#fff;padding-top:45px;}/*151208 퀵메뉴 당원가입버튼 css 변경 */
+.quickmenu .menu > li > a.join_tit:hover{color:#fff;}/*151208 퀵메뉴 당원가입버튼 css 변경 */
+.quickmenu .menu > li.active > a.join_tit{background:url("/images/egovframework/npad/common/btn_join_on.png") 25px 15px no-repeat #0065bc;color:#fff;}/*151208 퀵메뉴 당원가입버튼 css 변경 */
+.quickmenu .menu > li > a{position:relative;width:70px;padding:14px 0 17px 12px;border:1px solid #cacaca;background:#fff;font-weight:bold;color:#555;line-height:1.3;z-index:100;}
+.quickmenu .menu > li.active > a{background:#0065bc;color:#fff;}
+.quickmenu .menu > li > a:hover{color:#010101;}
+.quickmenu .menu > li.active > a:hover{color:#fff;}
+.quickmenu .menu > li.policy > a{width:82px;height:76px;padding:14px 0 0;;text-align:center;}
+.quickmenu .menu > li.policy > a img{width:64px;height:64px;}
+.quickmenu .menu > li.policy.active > a{background-color:#fff;background-image:none;color:#fff;line-height:1.3;z-index:101;}
+.quickmenu .menu > li.policy.active > a:after{content:"";display:block;width:80px;height:88px;position:absolute;top:-1px;left:-1px;border:2px solid #0065bc;}
+.quickmenu .quick_layer{display:none;position:absolute;top:0;right:-188px;width:270px;height:290px;border:1px solid #cacaca;background:#fff;line-height:1.3;z-index:98;}
+.quickmenu .menu > li.active .quick_layer{display:block;}
+.quickmenu .quick_layer .inner{position:relative;}
+.quickmenu .quick_layer .btn_cls{position:absolute;top:12px;right:12px;width:16px;height:16px;overflow:hidden;background:url('/images/egovframework/npad/common/bg_quick_cls.gif') no-repeat;line-height:999px;}
+.quickmenu .quick_layer .btn_detail{height:36px;padding:0 29px 0 19px;border:1px solid #cacaca;background:url("/images/egovframework/npad/common/bg_quick_detail.gif") #fff no-repeat 90% 14px;font-size:12px;color:#4c4c4c;line-height:36px;}
+.quickmenu .member_join .quick_layer{text-align:center;}
+.quickmenu .member_join .quick_layer .inner{padding-top:45px;}
+.quickmenu .member_join .quick_layer h2{display:inline-block;margin:0 0 17px;}
+.quickmenu .member_join .quick_layer p{margin-bottom:37px;color:#777;line-height:18px;}
+.quickmenu .policy .quick_layer{height:auto;padding-bottom:20px;text-align:center;}
+.quickmenu .policy .quick_layer .inner{padding:24px 10px 0;}
+.quickmenu .policy .quick_layer h2{margin:0 0 16px;}
+.quickmenu .policy .quick_layer h2 img{width:159px;height:auto;}
+.quickmenu .policy .quick_layer p{overflow:hidden;text-overflow:ellipsis;margin-bottom:8px;font-size:16px;color:#565656;white-space:nowrap;}
+.quickmenu .schedule .quick_layer{height:auto;}
+.quickmenu .schedule .quick_layer .inner{padding:17px 10px 20px 22px;}
+.quickmenu .schedule .quick_layer h2{margin:0 0 16px;font-size:26px;color:#0065bc;}
+.quickmenu .schedule .quick_layer .date{font-size:16px;font-weight:normal;color:#565656;}
+.quickmenu .schedule .quick_layer dl{margin-bottom:24px;}
+.quickmenu .schedule .quick_layer dt{margin-top:5px;font-weight:bold;line-height:20px;}
+.quickmenu .schedule .quick_layer dd{overflow:hidden;text-overflow:ellipsis;font-size:12px;line-height:18px;white-space:nowrap;}
+.quickmenu .person_srch .quick_layer{height:200px;}
+.quickmenu .person_srch .quick_layer .inner{padding:17px 0 0 22px;}
+.quickmenu .person_srch .quick_layer h2{margin:0 0 27px;font-size:26px;color:#0065bc;}
+.quickmenu .person_srch .quick_layer .label_wrap{display:inline-block;position:relative;margin-bottom:10px;}
+.quickmenu .person_srch .quick_layer .label_wrap label{position:absolute;top:10px;left:10px;color:#aeaeae;}
+.quickmenu .person_srch .quick_layer .label_wrap input[type=text]{width:198px;height:38px;padding:0 10px;border:1px solid #b3b3b3;}
+.quickmenu .person_srch .quick_layer .btn_srch{width:192px;height:46px;padding-right:28px;background:url("/images/egovframework/npad/common/bg_quick_srch.gif") #0065bc no-repeat 129px center;text-align:center;color:#fff;line-height:46px;}
+.quickmenu .news_q .quick_layer{height:auto;}
+.quickmenu .news_q .quick_layer .inner{padding:17px 10px 20px 22px;}
+.quickmenu .news_q .quick_layer h2{margin:0 0 16px;font-size:26px;color:#0065bc;}
+.quickmenu .news_q .quick_layer ul{margin-bottom:20px;}
+.quickmenu .news_q .quick_layer li{margin-top:15px;}
+.quickmenu .news_q .quick_layer li:first-child{margin-top:0;}
+.quickmenu .news_q .quick_layer li a{display:block;overflow:hidden;text-overflow:ellipsis;margin-bottom:7px;font-weight:bold;color:#555;line-height:20px;white-space:nowrap;}
+.quickmenu .news_q .quick_layer li a:hover,.quickmenu .news_q .quick_layer li a:focus{text-decoration:underline;}
+.quickmenu .news_q .quick_layer li .info{display:block;font-size:12px;}
+.quickmenu .news_q .quick_layer li .info .writer{margin-left:5px;padding:1px 0 0 9px;background:url("/images/egovframework/npad/common/bg_1x12_cccccc.gif") no-repeat 0 3px;color:#555;}
+.quickmenu .news_q .quick_layer .btn_add{position:absolute;top:25px;left:110px;}
+
+.quickmenu .sns{position:relative;width:83px;border-right:1px solid #cacaca;z-index:99;}
+.quickmenu .sns:after{content:"";display:block;clear:both;}
+.quickmenu .sns li{float:left;border-left:1px solid #cacaca;border-bottom:1px solid #cacaca;line-height:0;}
+.quickmenu .sns li a{overflow:hidden;line-height:999px;}
+.quickmenu .sns li.sns_facebook a{width:42px;height:44px;background:url("/images/egovframework/npad/common/quick_facebook.gif") #fff no-repeat 17px 12px;}
+.quickmenu .sns li.sns_twitter a{width:39px;height:44px;background:url("/images/egovframework/npad/common/quick_twitter.gif") #fff no-repeat 9px 13px;}
+.quickmenu .sns li.sns_youtube a{width:42px;height:44px;background:url("/images/egovframework/npad/common/quick_youtube.gif") #fff no-repeat 9px 13px;}
+.quickmenu .sns li.sns_blog a{width:39px;height:44px;background:url("/images/egovframework/npad/common/quick_blog.gif") #fff no-repeat 8px 10px;}
+.quickmenu .btn_top{display:block;height:12px;padding:11px 0 10px 39px;background:url("/images/egovframework/npad/common/bg_top.png") #fff no-repeat 20px 16px;font-size:12px;font-weight:bold;color:#525353;vertical-align:top;}
+
+.footer_banner{background:#f6f9fd;}
+.footer_banner .inner{position:relative;max-width:932px;margin:0 auto;padding:20px 34px;}
+.footer_banner .bx-controls-direction a{position:absolute;top:50%;margin-top:-18px;width:20px;height:36px;overflow:hidden;line-height:999px;}
+.footer_banner .bx-prev{left:0;background:url(/images/egovframework/npad/common/btn_prev03.png) no-repeat;}
+.footer_banner .bx-next{right:0;background:url(/images/egovframework/npad/common/btn_next03.png) no-repeat;}
+
+.footer_banner .footer_slide li a{border:1px solid #e1e1e1;width:218px;height:158px;}
+.footer_banner .footer_slide li a img{width:218px;height:158px;}
+
+/* common */
+#skip_menu a{position:absolute;left:-9999px;}
+#skip_menu a:focus{left:0;}
+
+/* tabmenu */
+.tabmenu.type1{border-bottom:1px solid #888;padding-left:1px;}
+.tabmenu:after{content:"";display:block;clear:both;}
+.tabmenu.type1 li{float:left;margin:0 0 -1px -1px;font-size:0;line-height:0;}
+.tabmenu.type1 li a{display:block;min-width:164px;height:58px;padding:0 25px;border:1px solid #cacaca;border-bottom:0;background:#f6f9fd;text-align:center;font-size:22px;color:#565656;line-height:58px;}
+.tabmenu.type1 li.active{position:relative;z-index:1;}
+.tabmenu.type1 li.active a{height:56px;border-color:#888;border-top:3px solid #0073be;border-bottom:1px solid #fff;background:#fff;color:#232323;font-weight:bold;line-height:54px;}
+
+/* tabmenu */
+.tabmenu.type4{border-bottom:1px solid #888;padding-left:1px;}
+.tabmenu.type4 li{float:left;margin:0 0 -1px -1px;font-size:0;line-height:0;}
+.tabmenu.type4 li a{display:block;min-width:164px;height:58px;padding:0 25px;border:1px solid #cacaca;border-bottom:0;background:#f6f9fd;text-align:center;font-size:22px;color:#565656;line-height:58px;}
+.tabmenu.type4 li.active{position:relative;z-index:1;}
+.tabmenu.type4 li.active a{height:56px;border-color:#888;border-top:3px solid #0073be;border-bottom:1px solid #fff;background:#fff;color:#232323;font-weight:bold;line-height:54px;}
+
+
+/* list */
+.list_type{margin:0 0 18px;}
+.list_type li{margin-bottom:6px;padding-left:10px;background:url("/images/egovframework/npad/common/bg_3x2_565656.gif") no-repeat 0 8px;font-size:13px;color:#565656;line-height:18px;}
+
+/* table */
+.tbl table{border:1px solid #cacaca;border-bottom:0;}
+.tbl thead tr th{padding:12px 5px 15px;background:#f6f9fd;font-size:16px;color:#565656;}
+.tbl tbody tr th{padding:15px 0 16px 20px;border-bottom:1px solid #cacaca;background:#f6f9fd;text-align:left;color:#565656;}
+.tbl tbody tr td{padding:15px 10px 16px 9px;border-bottom:1px solid #cacaca;}
+.tbl .type2 tbody td{padding:8px 10px 12px 9px;}
+.tbl .border_l{border-left:1px solid #cacaca;}
+.tbl2 table{border:1px solid #b3b3b3;border-top:2px solid #0073be;}
+.tbl2 thead tr th{padding:12px 5px 15px;background:#dbe2f1;font-size:16px;color:#565656;}
+.tbl2 tbody tr th{padding:8px 0 11px 0;border:1px solid #b3b3b3;background:#f6f9fd;font-size:15px;color:#565656;}
+.tbl2 tbody tr td{padding:8px 10px 11px 20px;border:1px solid #b3b3b3;color:#565656;}
+.tbl2 tbody tr td.tac{padding:8px 10px 11px  10px;}
+
+
+/* search */
+.srch_wrap{margin-bottom:20px;text-align:right;}
+.srch_wrap .slt_wrap{margin-left:7px;}
+.srch_wrap .input_txt{width:178px;height:38px;margin-left:7px;border:1px solid #b3b3b3;line-height:38px;}
+.srch_wrap .btn_srch{width:60px;height:40px;margin-left:7px;text-align:center;background:#167cc1;font-weight:bold;color:#fff;line-height:40px;vertical-align:middle;}
+
+/* select */
+.slt_wrap{display:inline-block;position:relative;width:300px;text-align:left;vertical-align:middle;}
+.slt_wrap select{position:absolute;left:-9999px;}
+.slt_wrap .slt_val{display:inline-block;width:100%;height:38px;border:1px solid #b3b3b3;background:url("/images/egovframework/npad/common/bg_select.png") no-repeat 95% 
+center;cursor:pointer;text-indent:13px;font-size:13px;color:#565656;line-height:38px;}
+.slt_wrap .slt_val.bold{font-weight:bold;}
+.slt_wrap .slt_list{display:none;position:absolute;top:39px;left:0;width:100%;max-height:133px;overflow-y:auto;border:1px solid #b3b3b3;background:#fff;z-index:1;}
+.slt_wrap .slt_list li a{display:block;padding:5px 10px;text-decoration:none;font-size:13px;color:#565656;}
+.slt_wrap .slt_list li a:hover{background:#aaa;color:#fff;}
+.slt_wrap.w172{width:172px;}
+.slt_wrap.w112{width:112px;}
+
+/* button */
+.btn_area{margin-top:10px;text-align:right;}
+.btn{height:40px;padding:0 24px;text-align:center;font-size:16px;color:#fff;line-height:40px;vertical-align:middle;}
+.btn_area .btn + .btn {margin-left:6px;}
+.btn.blue{background:#167cc1;color:#fff;}
+.btn.gray{background:#9b9c9e;color:#fff;}
+.btn.small{height:28px;padding:0 14px;border:1px solid #727272;background:#fff;font-size:14px;font-weight:bold;color:#565656;line-height:28px;}
+.btn.blue.small{height:40px;padding:0 20px;border:0;background:#167cc1;font-size:14px;font-weight:bold;color:#fff;line-height:38px;}
+.btn_dwn{height:36px;padding:0 14px 0 42px;border:1px solid #cacaca;background:url("/images/egovframework/npad/common/bg_download.gif") no-repeat 15px 10px;color:#565656;line-height:36px;vertical-align:middle;}
+.btn_dwn strong{color:#1295fe;}
+
+/* align */
+.vat{vertical-align:top !important;}
+.tac{text-align:center !important;}
+.tal{text-align:left !important;}
+.tar{text-align:right !important;}
+.c_both:after{content:"";display:block;clear:both;}
+.f_left{float:left !important;}
+.f_right{float:right !important;}
+
+/* file */
+.input_file_wrap{position:relative;}
+.input_file_wrap input[type=file]{position:absolute;top:0;left:0;width:590px;height:28px;border:1px solid #ff9900;font-size:14px;z-index:1;cursor:pointer;filter:alpha(opacity=0);-ms-filter: "alpha(opacity=0)";-khtml-opacity:0;-moz-opacity:0;opacity:0;color:#333;}
+.input_file_wrap .input_txt{width:512px;}
+.input_file_wrap .btn{margin-left:5px;}
+
+/* etc */
+.fwb{font-weight:bold;color:#232323;}
+.mb0{margin-bottom:0 !important;}
+.mgt10{margin-top:10px !important;}
+.mgt80{margin-top:80px !important;}
+.point01{color:#ee0000 !important;}
+.fs12{font-size:12px !important;}
+
+/* layer popup */
+.layer_wrap{display:none;position:fixed;left:0;top:0;width:100%;height:100%;background:url("/images/egovframework/npad/common/bg_trans.png") repeat;z-index:99;}
+.layer_wrap .layer_pop{display:none;position:absolute;top:50%;left:50%;background:#fff;}
+.layer_wrap .layer_pop .inner{position:relative;}
+.layer_wrap .layer_pop .tit_layer{padding:21px 80px 18px 30px;background:#0073be;font-size:24px;font-weight:normal;color:#fff;}
+.layer_wrap .layer_pop .layer_content{/* max-height:462px; */overflow-y:auto;padding:30px;-webkit-overflow-scrolling:touch;}
+.layer_wrap .layer_pop .cls_layer{position:absolute;top:0;right:0;width:70px;height:70px;overflow:hidden;background:url("/images/egovframework/npad/common/bg_layer_cls.png") no-repeat center center;line-height:999px;}
+.layer_wrap .msg{margin:0 0 20px;text-align:center;color:#ee0000;}
+
+/* print popup */
+.print_wrap{display:block;width:100%;height:100%;}
+.print_wrap .print_pop .inner{position:relative;}
+.print_wrap .print_pop .tit_layer{padding:10px;font-size:20px;font-weight:bold;border-bottom:1px solid #ccc;}
+.print_wrap .print_pop .print_content{padding:10px;}
+
+
+
+/* 紐⑤컮�� */
+@media (max-width:1016px) {
+	body{-webkit-text-size-adjust:none;}
+	select, input[type=text]{-webkit-appearance:none;border-radius:0;}
+	/* layout */
+	#header .header_inner{max-width:100%;height:47px;}
+	#header .logo{padding:0;text-align:center;}
+	#header .logo a{width:90px;height:47px;background:url("/images/egovframework/npad/common/m_logo.gif") no-repeat 0 12px;background-size:90px 27px;}
+	#header .btn_allmenu{top:0;left:0;width:48px;height:48px;background:url("/images/egovframework/npad/common/m_all_menu.png") no-repeat center center;background-size:20px 17px;}
+	#header .lang_menu{top:0;right:45px;width:41px;height:47px;}
+	#header .lang_menu a{width:40px;height:47px;padding:0;border:0;border-left:1px solid #cacaca;background:none;text-align:center;line-height:47px;display:none;}/*151207 CSS 추가*/
+	#header .btn_join{display:block;position:absolute;top:0;right:0;width:82px;height:48px;overflow:hidden;background:url("/images/egovframework/npad/common/m_bg_join.gif") no-repeat;background-size:82px 48px;line-height:999px;}/*151207 CSS 수정*/
+	#header .btn_join a{width:100%;}
+	#gnb{display:none;}
+	.all_menu{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:url("/images/egovframework/npad/common/bg_trans.png") repeat;z-index:999;}
+	.all_menu .inner{position:absolute;top:0;left:-255px;width:255px;height:100%;overflow-y:auto;overflow-x:hidden;border:0;background:#fff;}
+	.all_menu .menu_desc{display:block;height:45px;padding:8px 0 0 15px;background:#0082cd;font-size:11px;color:#fff;}
+	.all_menu .menu_desc .l_txt{display:block;margin-top:2px;font-size:13px;}
+	.all_menu .menu_desc .l_txt em{font-weight:bold;}
+	.all_menu .direct_menu{display:block;border-bottom:1px solid #ababab;}
+	.all_menu .direct_menu:after{content:"";display:block;clear:both;}
+	.all_menu .direct_menu li{float:left;width:33%;}
+	.all_menu .direct_menu li a{display:block;height:21px;padding:39px 0 0;border-left:1px solid #ccc;text-align:center;font-size:11px;color:#565656;}
+	.all_menu .direct_menu li:first-child a{border-left:0;}
+	.all_menu .direct_menu li.message a{background:url("/images/egovframework/npad/common/bg_direct_message.gif") no-repeat center 8px;background-size:19px 26px;}
+	.all_menu .direct_menu li.briefing a{background:url("/images/egovframework/npad/common/bg_direct_briefing.gif") no-repeat center 8px;background-size:30px 28px;}
+	.all_menu .direct_menu li.sns a{background:url("/images/egovframework/npad/common/bg_direct_sns.gif") no-repeat center 8px;background-size:33px 30px;}
+	.all_menu .inner > .menu > li{width:auto;height:auto;float:none;padding:0;border:0;}
+	.all_menu .inner > .menu > li > a{display:block;height:44px;margin-top:-1px;padding:0 40px 0 20px;background:url("/images/egovframework/npad/common/bg_allmenu_on.png") #f5f5f5 no-repeat 95% center;background-size:14px 8px;border-top:1px solid #c9c9c9;border-bottom:1px solid #c9c9c9;font-size:16px;color:#232323;line-height:44px;}
+	.all_menu .inner > .menu > li.active > a{background:url("/images/egovframework/npad/common/bg_allmenu_off.png") #f5f5f5 no-repeat 95% center;background-size:14px 8px;}
+	.all_menu .inner > .menu > li.active > .depth2{display:block;}
+	.all_menu .inner .depth2{display:none;margin:0 -1px -1px 0;}
+	.all_menu .inner .depth2 > ul:after{content:"";display:block;clear:both;}
+	.all_menu .inner .depth2 > ul > li{float:left;width:50%;margin-bottom:0;margin-left:-1px;border-right:1px solid #c9c9c9;border-bottom:1px solid #c9c9c9;}
+	.all_menu .inner .depth2 > ul > li > a{display:block;height:30px;padding-left:20px;font-size:12px;color:#565656;line-height:30px;}
+	.all_menu .inner .depth2 ul ul{margin: 4px 0 10px 20px;}
+	.all_menu .cls_allmenu{position:absolute;top:0;right:0;width:53px;height:53px;overflow:hidden;background:url("/images/egovframework/npad/common/btn_cls.gif") no-repeat center center;line-height:999px;}
+	
+
+
+	/* .all_menu .all_m4 .depth2 li:nth-child(1), .all_menu .all_m4 .depth2 li:nth-child(2), .all_menu .all_m4 .depth2 li:nth-child(3), .all_menu .all_m4 .depth2 li:nth-child(4){display:none;}
+	.all_menu .all_m4 .depth2 li:nth-child(5){float:none;width:auto;} */
+	.all_menu .depth2 li.m_hidden{display:none !important;}
+
+
+
+	#footer .inner{height:auto;max-width:100%;padding:95px 10px 44px;border-top:1px solid #cacaca;}
+	#footer .foot_logo{display:block;position:relative;top:0;margin:0 auto 21px;width:100px;height:30px;background-size:100% auto;}
+	#footer address{width:300px;margin:0 auto 14px;font-size:13px;}
+	#footer address .addr{display:block;margin-bottom:2px;}
+	#footer address .fax{margin-left:4px;}
+	#footer address em{font-size:13px;font-weight:bold;letter-spacing:-1px;}
+	#footer .copyright{width:300px;margin:0 auto;font-size:11px;color:#989898;}
+	#footer .copyright em{color:#989898;}
+	#footer .family_site{top:20px;left:0;width:100%;text-align:center;}
+	#footer .family_site > div{text-align:left;}
+	#footer .family_site > div > a{height:33px;font-size:11px;line-height:33px;}
+	#footer .family_site .family1 > a{width:100px;}
+	#footer .family_site .family2 > a{width:100px;}
+	#footer .family_site .family_list{bottom:34px;height:180px;}
+	#footer .family_site .family1 .family_list{width:140px;}
+	#footer .family_site .family2 .family_list{width:140px;}
+	#footer .family_site .family_list li a{font-size:11px;}
+
+	.footer_banner{height:225px;border-top:2px solid #167cc1;background:#fff;}
+	.footer_banner .inner{position:relative;max-width:100%;margin:0;padding:0;}
+	.footer_banner .bx-wrapper{margin:0 auto;}
+	.footer_banner .bx-pager{position:absolute;left:0;bottom:15px;width:100%;text-align:center;}
+	.footer_banner .bx-pager .bx-pager-item{display:inline-block;margin:0 3px;}
+	.footer_banner .bx-pager .bx-pager-item a{width:8px;height:7px;overflow:hidden;background:url("/images/egovframework/npad/common/foot_banner_pager.png") no-repeat;background-size:8px 14px;line-height:999px;}
+	.footer_banner .bx-pager .bx-pager-item a.active{background-position:0 -7px;}
+	.footer_banner .bx-controls-direction a{margin-top:-10px;width:11px;height:19px;background-size:11px 19px;}
+	.footer_banner .bx-prev{left:5%;background:url("/images/egovframework/npad/common/btn_prev03.png") no-repeat;}
+	.footer_banner .bx-next{right:5%;background:url("/images/egovframework/npad/common/btn_next03.png") no-repeat;}
+
+	.footer_banner .footer_slide li{width:100%;}
+	.footer_banner .footer_slide li a{display:block;width:320px;max-width:100%;height:225px;margin:0 auto;border:0;}
+	.footer_banner .footer_slide li a img{width:320px;height:225px;}
+
+	.quickmenu{display:none;}
+
+	/* search */
+	.srch_wrap{margin-bottom:20px;text-align:right;}
+	.srch_wrap .slt_wrap{margin-left:0;vertical-align:top !important;}
+	.srch_wrap .input_txt{width:210px;height:33px;margin-left:0;line-height:33px;}
+	.srch_wrap .btn_srch{width:51px;height:35px;margin-left:2px;line-height:35px;}
+
+	.slt_wrap.w112{width:60px;}
+	.slt_wrap.w172{width:175px;margin-bottom:10px;}
+	.slt_wrap.w172 + .slt_wrap.w112{width:110px;}
+	.slt_wrap.w112 + .input_txt{width:100px;}
+	.slt_wrap.w172 + .slt_wrap.w112 + .input_txt{width:210px;}
+
+	/* select */
+	.slt_wrap .slt_val{height:33px;line-height:33px;}
+
+	.srch_wrap.line1{display:-webkit-flex;}
+	.srch_wrap.line1 .slt_wrap{margin-right:2px;-webkit-flex:1}
+	.srch_wrap.line1 .input_txt{-webkit-flex:2}
+
+
+
+	/*Tabmenu */
+	.tabmenu.type1{display:-webkit-box;width:auto;}
+	.tabmenu.type1 li{float:none;-webkit-box-flex:1;}
+	.tabmenu.type1 li a{width:auto;min-width:0;height:44px;padding:0;font-size:16px;line-height:44px;}
+	.tabmenu.type1 li.active a{height:42px;line-height:42px;}
+	.tabmenu.type1+h2{display:none;}
+	
+	.tabmenu.type4{display:-webkit-box;width:auto;}
+	.tabmenu.type4 li{float:none;-webkit-box-flex:1;}
+	.tabmenu.type4 li a{width:auto;min-width:0;height:44px;padding:0;font-size:16px;line-height:44px;}
+	.tabmenu.type4 li.active a{height:42px;line-height:42px;}
+	.tabmenu.type4+h2{display:none;}
+}

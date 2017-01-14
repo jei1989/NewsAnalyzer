@@ -1,8 +1,8 @@
 package hjya1989.newsanalyzer.nlp;
 
-import kr.co.shineware.nlp.komoran.*;
-import kr.co.shineware.nlp.komoran.core.analyzer.Komoran;
-import kr.co.shineware.util.common.model.Pair;
+//import kr.co.shineware.nlp.komoran.*;
+//import kr.co.shineware.nlp.komoran.core.analyzer.Komoran;
+//import kr.co.shineware.util.common.model.Pair;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

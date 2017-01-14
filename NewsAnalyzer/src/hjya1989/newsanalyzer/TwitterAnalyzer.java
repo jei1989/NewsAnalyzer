@@ -293,7 +293,7 @@ public class TwitterAnalyzer implements Runnable{
 			
 			//System.out.println(compareString);
 			
-			node = this.newsAnaMain.searchNode(compareString);
+			node = this.newsAnaMain.returnSearchNode(compareString);
 			
 		}catch(Exception ex){
 			Log.errorLog(this, "searchTreeNode :: " + ex.toString());

@@ -1,0 +1,83 @@
+[2017-01-13 00:14:56] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 00:14:57] tree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 00:15:01] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 00:18:05] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:06:35] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:08:15] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 28 >= 27
+[2017-01-13 01:08:15] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:08:20] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 41 >= 41
+[2017-01-13 01:08:21] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:08:25] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 48 >= 48
+[2017-01-13 01:08:25] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:08:30] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 52 >= 51
+[2017-01-13 01:08:30] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:08:34] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 53 >= 53
+[2017-01-13 01:08:34] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:08:37] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 54 >= 54
+[2017-01-13 01:08:37] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:08:38] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 55 >= 54
+[2017-01-13 01:08:38] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:08:38] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 55 >= 54
+[2017-01-13 01:08:38] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:08:39] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 55 >= 54
+[2017-01-13 01:08:39] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:08:40] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 55 >= 54
+[2017-01-13 01:08:40] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:08:41] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 55 >= 54
+[2017-01-13 01:08:41] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:09:07] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 28 >= 28
+[2017-01-13 01:09:07] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:09:08] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 42 >= 41
+[2017-01-13 01:09:08] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:12:19] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 01:12:20] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 28 >= 27
+[2017-01-13 01:12:20] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:16:39] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 28 >= 27
+[2017-01-13 01:16:39] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:16:40] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 41 >= 41
+[2017-01-13 01:16:40] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:16:41] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 48 >= 48
+[2017-01-13 01:16:41] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:16:45] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 01:28:03] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 01:28:10] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 28 >= 27
+[2017-01-13 01:28:10] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 01:28:12] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 01:28:15] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 01:28:17] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 07:12:48] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 07:13:49] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 6 >= 5
+[2017-01-13 07:13:49] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 07:13:54] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 8 >= 8
+[2017-01-13 07:13:54] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 12:55:18] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 28 >= 27
+[2017-01-13 12:55:18] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 15:41:33] listModel RemoveAll :: java.lang.ArrayIndexOutOfBoundsException: 18 >= 17
+[2017-01-13 15:41:33] addRssTree :: java.lang.ArrayIndexOutOfBoundsException: 1 >= 1
+[2017-01-13 15:43:56] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 17:14:33] setProperty :: java.lang.NullPointerException
+[2017-01-13 17:21:00] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 17:21:02] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 17:21:03] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 17:21:08] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 17:25:35] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-13 17:27:40] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 45 >= 45
+[2017-01-13 17:40:05] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 45 >= 45
+[2017-01-13 17:40:13] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 35 >= 34
+[2017-01-13 17:41:48] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 45 >= 45
+[2017-01-13 17:41:55] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 111 >= 111
+[2017-01-13 17:42:49] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 185 >= 185
+[2017-01-13 17:49:36] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 45 >= 45
+[2017-01-13 17:50:02] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 35 >= 34
+[2017-01-13 17:51:37] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 147 >= 146
+[2017-01-13 17:51:50] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 203 >= 202
+[2017-01-13 17:53:34] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 231 >= 230
+[2017-01-13 17:53:58] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 245 >= 244
+[2017-01-13 17:56:51] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: Array index out of range: -1
+[2017-01-13 17:56:55] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: Array index out of range: -1
+[2017-01-13 17:56:58] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: Array index out of range: -1
+[2017-01-13 17:57:08] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: Array index out of range: -1
+[2017-01-13 17:58:05] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 13 >= 12
+[2017-01-13 17:59:54] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 13 >= 12
+[2017-01-13 18:00:34] removeTableAll() :: java.lang.ArrayIndexOutOfBoundsException: 13 >= 12
+[2017-01-13 23:08:41] rssTree MouseClicked :: java.lang.NullPointerException

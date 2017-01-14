@@ -12,6 +12,7 @@ import javax.swing.JSplitPane;
 import javax.swing.JEditorPane;
 import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
+import javax.swing.JTable;
 import javax.swing.JTree;
 import javax.swing.JTextArea;
 import javax.swing.tree.DefaultTreeModel;
@@ -33,6 +34,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.beans.PropertyChangeEvent;
 import javax.swing.event.TreeExpansionListener;
+import javax.swing.table.DefaultTableModel;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Document;
 import javax.swing.text.EditorKit;
@@ -70,8 +72,15 @@ import java.awt.event.InputMethodListener;
 import java.awt.event.InputMethodEvent;
 import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
+import javax.swing.DefaultListModel;
+import javax.swing.DefaultListSelectionModel;
+
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import javax.swing.border.LineBorder;
+import javax.swing.JList;
+import javax.swing.border.BevelBorder;
+import javax.swing.AbstractListModel;
 
 
 public class NewsAnaWindow extends JFrame {
@@ -113,6 +122,16 @@ public class NewsAnaWindow extends JFrame {
 	private JComboBox comboBox;
 	
 	private Calendar cal;
+	
+	public JScrollPane scrollPane_5;
+	public JScrollPane scrollPane;
+	public JTable table;
+	public DefaultTableModel model;
+	
+	public JScrollPane scrollPane_10;
+	public JList list;
+	public DefaultListModel listModel;
+	
 	/**
 	 * @wbp.nonvisual location=134,219
 	 */
@@ -161,6 +180,13 @@ public class NewsAnaWindow extends JFrame {
 				}catch(Exception ex){
 					Log.errorLog(this, "windowClosing :: " + ex);
 				}
+				try{
+					newsAnaMain.setProperty("chkboxDateCurrent", String.valueOf( chkboxDateCurrent.isSelected() ));
+				}catch(Exception ex){
+					Log.errorLog(this, "windowClosing :: " + ex);
+				}
+				
+
 			}
 			@Override
 			public void windowOpened(WindowEvent arg0) {
@@ -184,6 +210,22 @@ public class NewsAnaWindow extends JFrame {
 				}catch(Exception ex){
 					Log.errorLog(this, "windowClosing :: " + ex);
 				}
+				
+				try{
+					chkboxDateCurrent.setSelected( Boolean.getBoolean( newsAnaMain.getProperty("chkboxDateCurrent") ));
+				}catch(Exception ex){
+					Log.errorLog(this, "windowClosing :: " + ex);
+				}
+				
+				try{
+					if( chkboxDateCurrent.isSelected() ){
+						cal.setTime(  cal.getInstance().getTime() );
+						dateChooserEnd.setSelectedDate( cal );
+					}
+				}catch(Exception ex){
+					Log.errorLog(this, "windowClosing :: " + ex);
+				}
+				
 				try{
 					textPaneRequest.setText( newsAnaMain.getProperty("TextPaneRequest") );
 				}catch(Exception ex){
@@ -191,7 +233,7 @@ public class NewsAnaWindow extends JFrame {
 				}
 				
 				//btnRSSstart.doClick();
-				doBtnRssParsing();
+				//doBtnRssParsing();
 				
 			}
 		});
@@ -203,7 +245,7 @@ public class NewsAnaWindow extends JFrame {
 		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1200, 800);
+		setBounds(100, 100, 1800, 900);
 		
 		setLocation((int)(dim.getWidth()/2 - this.getWidth()/2), (int)(dim.getHeight()/2 - this.getHeight()/2));
 		contentPane = new JPanel();
@@ -220,15 +262,17 @@ public class NewsAnaWindow extends JFrame {
 		splitPane.setLeftComponent(splitPane_1);
 		
 		JScrollPane scrollPane_2 = new JScrollPane();
-		scrollPane_2.setMinimumSize(new Dimension(230, 23));
+		scrollPane_2.setMinimumSize(new Dimension(270, 23));
 		splitPane_1.setLeftComponent(scrollPane_2);
 		
 		JPanel panel = new JPanel();
+		panel.setBackground(Color.WHITE);
+		panel.setBorder(new TitledBorder(null, "News Analyzer", TitledBorder.LEADING, TitledBorder.TOP, null, null));
 		panel.setMinimumSize(new Dimension(230, 10));
-		panel.setPreferredSize(new Dimension(200, 20));
+		panel.setPreferredSize(new Dimension(230, 20));
 		scrollPane_2.setViewportView(panel);
 	
-		panel.setLayout(new MigLayout("", "[120px,grow][5px][103px,grow]", "[10px][25px][21px][21px][21px][23px][23px]"));
+		panel.setLayout(new MigLayout("", "[120px,grow][5px][120px,grow]", "[10px][25px][21px][21px][21px][23px][23px][]"));
 		
 		JPanel panel_5 = new JPanel();
 		panel_5.setBorder(new TitledBorder(UIManager.getBorder("TitledBorder.border"), "Check Duration", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0, 0, 139)));
@@ -283,41 +327,17 @@ public class NewsAnaWindow extends JFrame {
 		});
 		panel_4.add(chkboxDateCurrent, "cell 0 2 3 1,alignx right");
 		
-		btnTwitterstart = new JButton("TwitterStart");
-		btnTwitterstart.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				newsAnaMain.twitterParsingStart();
-			}
-		});
-		
 		JPanel panel_6 = new JPanel();
 		panel_6.setBackground(new Color(255, 222, 173));
-		panel_6.setBorder(new TitledBorder(null, "RSS Feeder", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		panel_6.setBorder(new TitledBorder(new LineBorder(new Color(184, 207, 229)), "", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(51, 51, 51)));
 		panel.add(panel_6, "cell 0 1 3 5");
 		panel_6.setLayout(new BorderLayout(0, 0));
 		
 		JPanel panel_7 = new JPanel();
-		panel_7.setBackground(Color.WHITE);
+		panel_7.setBorder(new TitledBorder(null, "News Action", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		panel_7.setBackground(new Color(221, 160, 221));
 		panel_6.add(panel_7);
-		panel_7.setLayout(new MigLayout("", "[grow][]", "[][][]"));
-		
-		btnRSSstart = new JButton("RssParseStart");
-		panel_7.add(btnRSSstart, "flowy,cell 0 0,growx");
-		
-		btnRSSstart.setBackground(UIManager.getColor("Button.light"));
-		btnRSSstart.addMouseListener(new MouseAdapter() {
-			@Override
-			public void mouseClicked(MouseEvent arg0) {
-				
-				doBtnRssParsing();
-				
-			}
-		});
-		btnRSSstart.setFont(new Font("Trebuchet MS", Font.BOLD, 12));
-		
-		JLabel lblNewLabel_2 = new JLabel(": RSS Parsing Set");
-		panel_7.add(lblNewLabel_2, "cell 1 0");
-		lblNewLabel_2.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 10));
+		panel_7.setLayout(new MigLayout("", "[][][]", "[][][][][grow]"));
 		
 		JButton btnNLPParse = new JButton("NLPParseStart");
 		btnNLPParse.addMouseListener(new MouseAdapter() {
@@ -339,21 +359,39 @@ public class NewsAnaWindow extends JFrame {
 				
 			}
 		});
+		
+		btnTwitterstart = new JButton("TwitterStart");
+		panel_7.add(btnTwitterstart, "cell 1 0,growx");
+		btnTwitterstart.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				newsAnaMain.twitterParsingStart();
+			}
+		});
 		btnNLPParse.setFont(new Font("Trebuchet MS", Font.BOLD, 12));
-		panel_7.add(btnNLPParse, "cell 0 1,growx");
+		panel_7.add(btnNLPParse, "cell 2 0,growx");
+				
+				txtLastChkTime = new JTextField();
+				panel_7.add(txtLastChkTime, "cell 1 1 2 1,growx");
+				txtLastChkTime.setColumns(10);
 		
-		JLabel lblNlpParse = new JLabel(": NLP Parse Set");
-		lblNlpParse.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 10));
-		panel_7.add(lblNlpParse, "cell 1 1");
+		btnRSSstart = new JButton("ParseStart");
+		panel_7.add(btnRSSstart, "flowy,cell 1 3,growx");
 		
-		txtLastChkTime = new JTextField();
-
-		panel_7.add(txtLastChkTime, "cell 0 2 2 1,growx");
-		txtLastChkTime.setColumns(10);
-		panel.add(btnTwitterstart, "cell 0 6,growx,aligny center");
+		btnRSSstart.setBackground(UIManager.getColor("Button.light"));
+		btnRSSstart.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseClicked(MouseEvent arg0) {
+				
+				doBtnRssParsing();
+				
+			}
+		});
+		btnRSSstart.setFont(new Font("Trebuchet MS", Font.BOLD, 12));
 		
-		JButton btnRssanalyzer = new JButton("RssAnalyzer");
+		JButton btnRssanalyzer = new JButton("NewsAnalyzer");
+		panel_7.add(btnRssanalyzer, "cell 2 3,growx");
 		btnRssanalyzer.setFont(new Font("Trebuchet MS", Font.BOLD, 12));
+
 		btnRssanalyzer.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
@@ -361,7 +399,6 @@ public class NewsAnaWindow extends JFrame {
 				
 			}
 		});
-		panel.add(btnRssanalyzer, "cell 2 6,alignx center,aligny center");
 		
 		JPanel panel_1 = new JPanel();
 		splitPane_1.setRightComponent(panel_1);
@@ -371,15 +408,38 @@ public class NewsAnaWindow extends JFrame {
 		panel_1.add(tabbedPane);
 		
 		JSplitPane splitPane_3 = new JSplitPane();
-		tabbedPane.addTab("RSS Feed", null, splitPane_3, null);
+		tabbedPane.addTab("NewsAnalyzer", null, splitPane_3, null);
 		
 		JScrollPane scrollPane_3 = new JScrollPane();
-		scrollPane_3.setMinimumSize(new Dimension(200, 20));
-		scrollPane_3.setPreferredSize(new Dimension(300, 20));
+		scrollPane_3.setBackground(new Color(154, 205, 50));
+		scrollPane_3.setBorder(new TitledBorder(null, "Article List", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		scrollPane_3.setMinimumSize(new Dimension(20, 2));
+		scrollPane_3.setPreferredSize(new Dimension(400, 2));
 		splitPane_3.setLeftComponent(scrollPane_3);
 		
+		model = new DefaultTableModel();//
+				
+		//model.addColumn("No");
+		//model.addColumn("TITLE");
+		//model.addColumn("URL");
+		model.addColumn("NO");
+		model.addColumn("Title");
+		model.addColumn("url");
+		
+		table = new JTable(model);
+		
+		table.getColumnModel().getColumn(0).setPreferredWidth(25);
+		table.getColumnModel().getColumn(1).setPreferredWidth(400);
+		table.getColumnModel().getColumn(2).setPreferredWidth(0);
+		
+		table.setMinimumSize(new Dimension(0, 0));
+		table.setFont(new Font("Dialog", Font.BOLD, 12));
+		table.setRowHeight(25);
+		table.setBorder(new BevelBorder(BevelBorder.LOWERED, null, null, null, null));
+		table.setAutoResizeMode(JTable.AUTO_RESIZE_ALL_COLUMNS);
+		scrollPane_3.setViewportView(table);
+		
 		rssTree = new JTree();
-		rssTree.setPreferredSize(new Dimension(20, 60));
 		rssTree.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent arg0) {
@@ -387,10 +447,14 @@ public class NewsAnaWindow extends JFrame {
 				try{
 					if(rssTree.getSelectionPath().getPath().length >= 4 ){
 						
+						
 						String writeText = editorPane.getText() + rssTree.getSelectionPath().getPathComponent(1).toString() + " :: (" + rssTree.getSelectionPath().getPathComponent(2).toString() + ")\r\n" + rssTree.getSelectionPath().getPathComponent(3).toString() + "\r\n" + "--------------------\r\n";
 						//editorPane.setText( editorPane.getText() + tree.getSelectionPath().getPathComponent(1).toString() + " :: (" + tree.getSelectionPath().getPathComponent(2).toString() + ")\r\n" + tree.getSelectionPath().getPathComponent(3).toString() + "\r\n" + "--------------------\r\n" );
 						//editorPane.setText("\r\n");
 						editorPane.setText( writeText );
+						System.out.println(rssTree.getSelectionPath().getPathComponent(3).toString());
+						newsAnaMain.setWebEngine( rssTree.getSelectionPath().getPathComponent(3).toString() );
+						
 						
 					}
 				}catch(Exception ex)
@@ -402,18 +466,20 @@ public class NewsAnaWindow extends JFrame {
 		});
 		rssTreeModel = (DefaultTreeModel)rssTree.getModel();
 		
-		scrollPane_3.setViewportView(rssTree);
+		//scrollPane_3.setViewportView(rssTree);
 		
 		JPanel panel_2 = new JPanel();
 		
 		splitPane_3.setRightComponent(panel_2);
 		panel_2.setLayout(new BorderLayout(0, 0));
 		
-		JSplitPane splitPane_4 = new JSplitPane();
-		panel_2.add(splitPane_4);
-		
-		JScrollPane scrollPane_5 = new JScrollPane();
-		splitPane_4.setLeftComponent(scrollPane_5);
+		scrollPane_5 = new JScrollPane();
+		scrollPane_5.setBackground(new Color(255, 204, 102));
+		scrollPane_5.setBorder(new TitledBorder(null, "Web Browser", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		panel_2.add(scrollPane_5, BorderLayout.CENTER);
+		scrollPane_5.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+		scrollPane_5.setMinimumSize(new Dimension(1100, 22));
+		scrollPane_5.setPreferredSize(new Dimension(400, 3));
 		
 		textPane = new JTextPane();
 		textPane.setBackground(Color.BLACK);
@@ -455,13 +521,14 @@ public class NewsAnaWindow extends JFrame {
 			}
 		});
 		textPane.setPreferredSize(new Dimension(500, 21));
-		scrollPane_5.setViewportView(textPane);
+		//scrollPane_5.setViewportView(textPane);
 		
 		JPanel panel_3 = new JPanel();
-		splitPane_4.setRightComponent(panel_3);
+		
 		panel_3.setLayout(new MigLayout("", "[grow]", "[][][grow][][][][][][][][][][][][][][][][]"));
 		
 		btnNLPStart = new JButton("Parsing NLP");
+		btnNLPStart.setPreferredSize(new Dimension(50, 28));
 		btnNLPStart.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
@@ -494,6 +561,7 @@ public class NewsAnaWindow extends JFrame {
 		scrollPane_6.setViewportView(textPaneRequest);
 		
 		btnNLPRequest = new JButton("Request NLP");
+		btnNLPRequest.setPreferredSize(new Dimension(50, 28));
 		btnNLPRequest.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
@@ -504,8 +572,12 @@ public class NewsAnaWindow extends JFrame {
 		});
 		panel_3.add(btnNLPRequest, "cell 0 4,alignx center");
 		
+		editorPane = new JEditorPane();
+		editorPane.setInheritsPopupMenu(true);
+		editorPane.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 14));
+		
 		JSplitPane splitPane_2 = new JSplitPane();
-		tabbedPane.addTab("New tab", null, splitPane_2, null);
+		tabbedPane.addTab("Data", null, splitPane_2, null);
 
 		JScrollPane scrollPane_1 = new JScrollPane();
 		scrollPane_1.setPreferredSize(new Dimension(300, 20));
@@ -540,13 +612,81 @@ public class NewsAnaWindow extends JFrame {
 		JScrollPane scrollPane_4 = new JScrollPane();
 		splitPane_2.setRightComponent(scrollPane_4);
 		
-		JScrollPane scrollPane = new JScrollPane();
+		JSplitPane splitPane_5 = new JSplitPane();
+		scrollPane_4.setViewportView(splitPane_5);
+		
+		JScrollPane scrollPane_7 = new JScrollPane();
+		scrollPane_7.setPreferredSize(new Dimension(230, 3));
+		scrollPane_7.setViewportView(rssTree);
+		splitPane_5.setLeftComponent(scrollPane_7);
+		
+		JScrollPane scrollPane_8 = new JScrollPane();
+		splitPane_5.setRightComponent(scrollPane_8);
+		
+		JSplitPane splitPane_6 = new JSplitPane();
+		scrollPane_8.setViewportView(splitPane_6);
+		
+		splitPane_6.setLeftComponent(editorPane);
+		splitPane_6.setRightComponent(panel_3);
+		
+		scrollPane = new JScrollPane();
+		scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+		scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 		splitPane.setRightComponent(scrollPane);
 		
-		editorPane = new JEditorPane();
-		editorPane.setInheritsPopupMenu(true);
-		editorPane.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 14));
-		scrollPane.setViewportView(editorPane);
+		JSplitPane splitPane_4 = new JSplitPane();
+		scrollPane.setViewportView(splitPane_4);
+		
+		JPanel panel_8 = new JPanel();
+		splitPane_4.setLeftComponent(panel_8);
+		panel_8.setLayout(new BorderLayout(0, 0));
+		
+		JScrollPane scrollPane_9 = new JScrollPane();
+		scrollPane_9.setPreferredSize(new Dimension(655, 3));
+		panel_8.add(scrollPane_9);
+		
+		listModel = new DefaultListModel(); 
+		list = new JList();
+		list.setFixedCellHeight(25);
+		list.setFont(new Font("Trebuchet MS", Font.BOLD, 14));
+		list.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseReleased(MouseEvent arg0) {
+				
+				newsAnaMain.setWebEngine( String.valueOf( listModel.getElementAt( list.getSelectedIndex() ) ) );
+				
+			}
+		});
+		list.setModel(listModel);
+		
+		
+		list.setBackground(Color.WHITE);
+		list.setBorder(new TitledBorder(new LineBorder(new Color(184, 207, 229)), "List", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(51, 51, 51)));
+		scrollPane_9.setViewportView(list);
+		
+		JPanel panel_10 = new JPanel();
+		panel_10.setBackground(Color.LIGHT_GRAY);
+		panel_10.setBorder(new TitledBorder(null, "List Control", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		scrollPane_9.setRowHeaderView(panel_10);
+		
+		JButton btnListReload = new JButton("Reload");
+		btnListReload.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				newsAnaMain.setCustomList();
+				
+			}
+		});
+		panel_10.add(btnListReload);
+		
+		JPanel panel_9 = new JPanel();
+		splitPane_4.setRightComponent(panel_9);
+		panel_9.setLayout(new BorderLayout(0, 0));
+		
+		scrollPane_10 = new JScrollPane();
+		scrollPane_10.setBackground(new Color(204, 204, 255));
+		scrollPane_10.setBorder(new TitledBorder(null, "Static PieChart", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		panel_9.add(scrollPane_10, BorderLayout.CENTER);
 		
 		//kit = editorPane.getEditorKit();
 		//doc = kit.createDefaultDocument();
@@ -554,7 +694,7 @@ public class NewsAnaWindow extends JFrame {
 		rootTreeNode = new DefaultMutableTreeNode("TwitterRoot");
 		treeModel.setRoot(rootTreeNode);
 		
-		rootRssTreeNode = new DefaultMutableTreeNode("RSS Reader");
+		rootRssTreeNode = new DefaultMutableTreeNode("News Reader");
 		rssTreeModel.setRoot(rootRssTreeNode);
 		
 		//contentPane.setVisible(true);

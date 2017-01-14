@@ -62,18 +62,29 @@ public class Feed {
 	
 	public String getPubDate()
 	{
-		return pubDate;
+		if (pubDate == null || pubDate.equals("") )
+		{
+			return getDcDate();
+		}else{
+			return pubDate;
+		}
 	}
 	
 	public String getDcDate()
 	{
-		return dcDate;
+		if (dcDate == null || dcDate.equals("") )
+		{
+			return getPubDate();
+		}else{
+			return dcDate;
+		}
+
 	}
 	
 	public String toString()
 	{
 		return "Feed [copyright = " + copyright + ", desciption = " + description 
 									+ ", langugae = " + language + " , link = " + link
-									+", pubDate = " + pubDate + ", title = " + title +"]";
+									+", pubDate = " + pubDate + ", dcDate = " + dcDate +" , title = " + title +"]";
 	}
 }

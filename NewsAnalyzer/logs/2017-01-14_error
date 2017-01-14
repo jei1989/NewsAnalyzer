@@ -1,0 +1,12 @@
+[2017-01-14 02:22:27]  detailParser :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-14 02:22:37]  detailParser :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-14 02:24:37]  detailParser :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-14 02:25:10] rssTree MouseClicked :: java.lang.NullPointerException
+[2017-01-14 02:26:41]  detailParser :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-14 02:27:47] detailparser2 :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-14 02:27:54] detailparser2 :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-14 02:28:02] detailparser2 :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-14 02:30:43] detailparser2 :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-14 02:30:53] detailparser2 :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-14 02:30:58] detailparser2 :: java.lang.ArrayIndexOutOfBoundsException: 1
+[2017-01-14 02:31:25] detailparser2 :: java.lang.ArrayIndexOutOfBoundsException: 1
