@@ -5,6 +5,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.UnsupportedEncodingException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -64,6 +65,8 @@ public class NewsAnaMain implements Runnable {
 	
 	private PieChart pieChart;
 	
+	public String[] feedURL;
+	
 	public NewsAnaMain()
 	{
 		Log.MAINDIR = System.getProperty("user.dir");
@@ -76,6 +79,7 @@ public class NewsAnaMain implements Runnable {
 		nlpAnalyzer = new NLPAnalyzer(this);
 		twitterAnalyzer = new TwitterAnalyzer(this);
 		rssFeedParser = new RSSFeedParser();
+		
 		rssFeedAnalyzer = new RSSFeedAnalyzer(this);
 		
 		tableAnalyzer = new TableAnalyzer();
@@ -112,6 +116,20 @@ public class NewsAnaMain implements Runnable {
 			}
 			
 		});
+		
+		rssFeedParser.setRSSFeedURL();
+		this.feedURL = rssFeedParser.getFeedName();
+		
+		int cnt = 0;
+		for( String temp : this.feedURL ){
+			try {
+				this.newsAnaWindow.comboModel.addElement(cnt + " - " + temp);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				Log.errorLog(this, "feedURL :: " + e);
+			}
+			cnt++;
+		}
 		
 		/************
 		Platform.runLater(new Runnable(){
@@ -177,10 +195,14 @@ public class NewsAnaMain implements Runnable {
 	/***********/
 	public void setPieChart()
 	{
+		try{
 		Platform.runLater(() -> {
 			fxPanel_local.setScene(new Scene(pieChartStart(), 400, 250));
 			//webEngine_local.load(url);
 		});
+		}catch(Exception ex){
+			Log.errorLog(this, "setPieChart :: " + ex);
+		}
 		
 		
 	}

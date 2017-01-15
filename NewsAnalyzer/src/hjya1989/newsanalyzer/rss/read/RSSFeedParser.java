@@ -34,7 +34,8 @@ public class RSSFeedParser implements Runnable{
 	static final String DCDATE = "date";//"['http://purl.org/dc/elements/1.1/']:dc:date";
 	
 	private URL url;
-	private String feedURL[]; 
+	private String feedURL[];
+	private String feedName[];
 	
 	public boolean isTrue = true;
 	
@@ -54,24 +55,34 @@ public class RSSFeedParser implements Runnable{
 		new Thread(rssFeedParser).start();
 	}
 	
+	public String[] getFeedName()
+	{
+		return this.feedName;
+	}
+	
 	public void setRSSFeedURL()
 	{
 		BufferedReader buff = null;
 		String temp = "";
 		Vector<String> vec = new Vector();
+		Vector<String> vecName = new Vector();
 		try{
-			buff = new BufferedReader( new InputStreamReader( new FileInputStream(Log.MAINDIR+Log.CONFDIR+Log.RSSURLFILE) , "UTF-8"));
+			buff = new BufferedReader( new InputStreamReader( new FileInputStream(Log.MAINDIR+Log.CONFDIR+Log.RSSURLFILE) , "EUC-KR"));
 			while( ( temp = buff.readLine()) != null ){
 				
 				vec.addElement( temp.split("\\|")[0] );
+				vecName.addElement( temp.split("\\|")[1] );
 				
 			}//while( ( temp = buff.readLine()) != null ){
 			buff.close();
 			
 			feedURL = new String[vec.size()];
+			feedName = new String[vecName.size()];
+			
 			int cnt = 0;
 			for( Object obj : vec ){
 				feedURL[cnt] = obj.toString();
+				feedName[cnt] = vecName.elementAt(cnt).toString();
 				cnt++;
 			}
 			setRSSFeedURL(feedURL);

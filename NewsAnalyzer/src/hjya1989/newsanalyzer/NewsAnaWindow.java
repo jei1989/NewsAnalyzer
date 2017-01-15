@@ -26,6 +26,7 @@ import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.JInternalFrame;
 import javax.swing.ScrollPaneConstants;
 import java.beans.PropertyChangeListener;
+import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.URL;
@@ -46,6 +47,7 @@ import java.awt.Frame;
 
 import net.miginfocom.swing.MigLayout;
 import java.awt.GridLayout;
+import java.awt.Image;
 import java.awt.GridBagLayout;
 import javax.swing.JButton;
 import java.awt.GridBagConstraints;
@@ -74,12 +76,14 @@ import javax.swing.JComboBox;
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.DefaultListModel;
 import javax.swing.DefaultListSelectionModel;
+import javax.swing.ImageIcon;
 
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import javax.swing.border.LineBorder;
 import javax.swing.JList;
 import javax.swing.border.BevelBorder;
+import javax.imageio.ImageIO;
 import javax.swing.AbstractListModel;
 
 
@@ -131,6 +135,9 @@ public class NewsAnaWindow extends JFrame {
 	public JScrollPane scrollPane_10;
 	public JList list;
 	public DefaultListModel listModel;
+	
+	public JComboBox comboBoxFeedURL;
+	public DefaultComboBoxModel comboModel;
 	
 	/**
 	 * @wbp.nonvisual location=134,219
@@ -252,6 +259,14 @@ public class NewsAnaWindow extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
+		try {
+			setIconImage(Toolkit.getDefaultToolkit().getImage(Log.MAINDIR + "\\network.png"));
+		} catch (Exception e1) {
+			// TODO Auto-generated catch block
+			Log.errorLog(this, "setIconImage :: " + e1);
+		}
+		
+		
 		
 		JSplitPane splitPane = new JSplitPane();
 		splitPane.setOrientation(JSplitPane.VERTICAL_SPLIT);
@@ -272,7 +287,7 @@ public class NewsAnaWindow extends JFrame {
 		panel.setPreferredSize(new Dimension(230, 20));
 		scrollPane_2.setViewportView(panel);
 	
-		panel.setLayout(new MigLayout("", "[120px,grow][5px][120px,grow]", "[10px][25px][21px][21px][21px][23px][23px][]"));
+		panel.setLayout(new MigLayout("", "[120px,grow][5px][120px,grow]", "[10px][25px][21px][21px][21px][23px][23px,grow][]"));
 		
 		JPanel panel_5 = new JPanel();
 		panel_5.setBorder(new TitledBorder(UIManager.getBorder("TitledBorder.border"), "Check Duration", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0, 0, 139)));
@@ -391,6 +406,20 @@ public class NewsAnaWindow extends JFrame {
 		JButton btnRssanalyzer = new JButton("NewsAnalyzer");
 		panel_7.add(btnRssanalyzer, "cell 2 3,growx");
 		btnRssanalyzer.setFont(new Font("Trebuchet MS", Font.BOLD, 12));
+		
+		JPanel panel_11 = new JPanel();
+		panel_11.setBorder(new TitledBorder(null, "News Action", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+		panel_11.setBackground(new Color(255, 218, 185));
+		panel.add(panel_11, "cell 0 6 3 1,grow");
+		panel_11.setLayout(new BorderLayout(0, 0));
+		
+		comboModel = new DefaultComboBoxModel();
+		
+		comboBoxFeedURL = new JComboBox(comboModel);
+		comboBoxFeedURL.setFont(new Font("¸¼Àº °íµñ", Font.BOLD, 12));
+		panel_11.add(comboBoxFeedURL, BorderLayout.NORTH);
+		
+		
 
 		btnRssanalyzer.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {

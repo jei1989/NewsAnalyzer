@@ -170,6 +170,8 @@ public class TableAnalyzer {
 		this.message = message.replace("  ", " ");
 		this.message = message.replace("   ", " ");
 		this.message = message.replace("    ", " ");
+		this.message = message.replace("[기자수첩]", " ");
+		this.message = message.replace("[속보]", " ");		
 		
 		return this.message;
 	}

@@ -1,0 +1,5 @@
+[2017-01-16 00:04:41] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-16_0 (지정된 파일을 찾을 수 없습니다)
+[2017-01-16 00:04:41] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-16_1 (지정된 파일을 찾을 수 없습니다)
+[2017-01-16 00:04:41] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-16_2 (지정된 파일을 찾을 수 없습니다)
+[2017-01-16 00:04:41] feedDataDuplicatedCheck() :: java.io.FileNotFoundException: C:\eclipse\git\NewsAnalyzer\NewsAnalyzer\result\rss\2017-01-16_3 (지정된 파일을 찾을 수 없습니다)
+[2017-01-16 05:46:01] detailparser2 :: 0 :: java.lang.ArrayIndexOutOfBoundsException: 1

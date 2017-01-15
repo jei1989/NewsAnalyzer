@@ -237,7 +237,9 @@ public class RSSFeedAnalyzer implements Runnable{
 		detailParser(vecFiles);
 		
 		//this.newsAnaMain.setWebEngine_local("file:///"+Log.MAINDIR+Log.CONFDIR+Log.REPORTHTMLFILE);
-		this.newsAnaMain.setPieChart();
+		//if( vecObject.size() > 0 ){
+			this.newsAnaMain.setPieChart();
+		//}
 		
 	}
 	
@@ -258,23 +260,27 @@ public class RSSFeedAnalyzer implements Runnable{
 					try{
 						int cnt = Integer.valueOf(((File)file).getName().split("\\_")[1]);
 						
-						strbuff = new StringBuffer();
-						buff = new BufferedReader(new InputStreamReader(new FileInputStream( (File)file ),"euc-kr"));
+						if( this.newsAnaMain.newsAnaWindow.comboBoxFeedURL.getSelectedIndex() == cnt ){
+							
+							strbuff = new StringBuffer();
+							buff = new BufferedReader(new InputStreamReader(new FileInputStream( (File)file ),"euc-kr"));
+							
+							while( ( temp = buff.readLine() ) != null )
+							{
+								strbuff.append(temp);
+							}
+							
+							rssFeedRowData = new RSSFeedRowData();
+							rssFeedRowData.removeAll();
+							
+							parseString = strbuff.toString().split("\\@@@");
+							
+							for( String parser : parseString ){
+								rssFeedRowData.addVec(new RSSFeedRowDataDetail(parser));
+							}
+							vecObject.addElement(rssFeedRowData);
+						}//if( true ){
 						
-						while( ( temp = buff.readLine() ) != null )
-						{
-							strbuff.append(temp);
-						}
-						
-						rssFeedRowData = new RSSFeedRowData();
-						rssFeedRowData.removeAll();
-						
-						parseString = strbuff.toString().split("\\@@@");
-						
-						for( String parser : parseString ){
-							rssFeedRowData.addVec(new RSSFeedRowDataDetail(parser));
-						}
-						vecObject.addElement(rssFeedRowData);
 					}catch(Exception ex)
 					{
 						Log.errorLog(this, "detailparser2 :: 0 :: " + ex);
